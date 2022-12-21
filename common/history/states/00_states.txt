@@ -7072,7 +7072,7 @@ STATES = {
 			country = c:RUS
 			owned_provinces = { x0087C9 x117AE1 x46B950 x4969E4 xB491B1 xC06121 xDE551D }
 		}
-		# add_homeland = polish
+		add_homeland = polish
 		add_homeland = byelorussian
 	}
 	s:STATE_GREATER_POLAND = {

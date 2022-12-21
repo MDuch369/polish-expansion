@@ -117,11 +117,11 @@ STATE_VOLHYNIA = {
     farm = "x5A26AE"
     mine = "x905D21"
     wood = "xAC3079"
-    arable_land = 94
+    arable_land = 57
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 68
-        bg_logging = 11
+        bg_coal_mining = 41
+        bg_logging = 7
     }
 }
 STATE_PODOLIA = {
@@ -133,11 +133,11 @@ STATE_PODOLIA = {
     farm = "x5A26AE"
     mine = "x905D21"
     wood = "xAC3079"
-    arable_land = 94
+    arable_land = 37
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 68
-        bg_logging = 11
+        bg_coal_mining = 27
+        bg_logging = 4
     }
 }
 
@@ -237,11 +237,11 @@ STATE_LATVIA = {
     farm = "xF8BBB0"
     mine = "xF4B54B"
     wood = "xD51E75"
-    arable_land = 74
+    arable_land = 24
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 11
-        bg_fishing = 10
+        bg_logging = 4
+        bg_fishing = 5
     }
     naval_exit_id = 3000
 }
@@ -254,10 +254,10 @@ STATE_LATGALIA = {
     farm = "xF8BBB0"
     mine = "xF4B54B"
     wood = "xD51E75"
-    arable_land = 74
+    arable_land = 19
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 11
+        bg_logging = 4
     }
 }
 STATE_COURLAND= {
@@ -269,11 +269,11 @@ STATE_COURLAND= {
     farm = "xF8BBB0"
     mine = "xF4B54B"
     wood = "xD51E75"
-    arable_land = 74
+    arable_land = 31
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 11
-        bg_fishing = 10
+        bg_logging = 3
+        bg_fishing = 5
     }
     naval_exit_id = 3000
 }
@@ -287,11 +287,11 @@ STATE_ESTONIA = {
     farm = "x25CC83"
     mine = "x6D20F8"
     wood = "xD29762"
-    arable_land = 42
+    arable_land = 22
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 9
-        bg_fishing = 8
+        bg_logging = 4
+        bg_fishing = 5
     }
     naval_exit_id = 3000
 }
@@ -304,11 +304,11 @@ STATE_LIVONIA = {
     farm = "x25CC83"
     mine = "x6D20F8"
     wood = "xD29762"
-    arable_land = 42
+    arable_land = 20
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 9
-        bg_fishing = 8
+        bg_logging = 5
+        bg_fishing = 3
     }
     naval_exit_id = 3000
 }
@@ -322,11 +322,11 @@ STATE_KIEV = {
     farm = "xD0DA95"
     mine = "x11F253"
     wood = "x2472F3"
-    arable_land = 288
+    arable_land = 170
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 72
-        bg_logging = 9
+        bg_coal_mining = 42
+        bg_logging = 5
     }
 }
 STATE_ZHYTOMYR = {
@@ -338,10 +338,10 @@ STATE_ZHYTOMYR = {
     farm = "xD0DA95"
     mine = "x11F253"
     wood = "x2472F3"
-    arable_land = 288
+    arable_land = 118
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 72
-        bg_logging = 9
+        bg_coal_mining = 30
+        bg_logging = 4
     }
 }
