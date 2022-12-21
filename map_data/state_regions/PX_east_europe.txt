@@ -150,14 +150,14 @@ STATE_SILESIA = {
     farm = "xAF9F20"
     mine = "x272E48"
     wood = "x90B12B"
-    arable_land = 126
+    arable_land = 100
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 120
-        bg_iron_mining = 60
-        bg_lead_mining = 54
-        bg_sulfur_mining = 40
-        bg_logging = 14
+        bg_coal_mining = 20
+        bg_iron_mining = 48
+        bg_lead_mining = 10
+        bg_sulfur_mining = 32
+        bg_logging = 11
     }
 }
 
@@ -170,14 +170,14 @@ STATE_UPPER_SILESIA = {
     farm = "xAF9F20"
     mine = "x272E48"
     wood = "x90B12B"
-    arable_land = 126
+    arable_land = 26
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 120
-        bg_iron_mining = 60
-        bg_lead_mining = 54
-        bg_sulfur_mining = 40
-        bg_logging = 14
+        bg_coal_mining = 100
+        bg_iron_mining = 12
+        bg_lead_mining = 44
+        bg_sulfur_mining = 8
+        bg_logging = 3
     }
 }
 

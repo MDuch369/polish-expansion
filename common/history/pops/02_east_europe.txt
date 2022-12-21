@@ -634,21 +634,43 @@
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 16004
+				size = 13000
 			}
 			create_pop = {
 				culture = polish
-				size = 712800
+				size = 392000
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 228400
+				size = 150000
 			}
 			create_pop = {
 				culture = czech
 				religion = catholic
-				size = 60000
+				size = 40000
+			}
+		}
+	}
+	s:STATE_UPPER_SILESIA = {
+		region_state:PRU = {
+			create_pop = {
+				culture = ashkenazi
+				size = 3004
+			}
+			create_pop = {
+				culture = polish
+				size = 320800
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 78400
+			}
+			create_pop = {
+				culture = czech
+				religion = catholic
+				size = 20000
 			}
 		}
 	}
