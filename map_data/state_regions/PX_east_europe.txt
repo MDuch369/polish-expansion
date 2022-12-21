@@ -190,10 +190,10 @@ STATE_LITHUANIA = {
     farm = "xC0A0A0"
     mine = "x406DC9"
     wood = "xCD7291"
-    arable_land = 92
+    arable_land = 71
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 13
+        bg_logging = 10
         bg_fishing = 2
     }
     naval_exit_id = 3000
@@ -207,10 +207,10 @@ STATE_MARIJAMPOLE = {
     farm = "xC0A0A0"
     mine = "x406DC9"
     wood = "xCD7291"
-    arable_land = 92
+    arable_land = 14
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 13
+        bg_logging = 2
     }
 }
 STATE_VILNIUS = {
@@ -221,10 +221,10 @@ STATE_VILNIUS = {
     farm = "xC0A0A0"
     mine = "x406DC9"
     wood = "xCD7291"
-    arable_land = 92
+    arable_land = 7
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 13
+        bg_logging = 1
     }
 }
 
