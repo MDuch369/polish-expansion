@@ -541,23 +541,63 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = polish
-				size = 111796
+				size = 10200
 			}
 			create_pop = {
 				culture = lithuanian
-				size = 729000
+				size = 647770
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 220000
+				size = 100000
 			}
 			create_pop = {
 				culture = north_german
-				size = 24000
+				size = 10000
+			}
+		}
+	}
+	s:STATE_VILNIUS = {
+		region_state:RUS = {
+			create_pop = {
+				culture = polish
+				size = 98000
+			}
+			create_pop = {
+				culture = lithuanian
+				size = 71230
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 115000
+			}
+			create_pop = {
+				culture = north_german
+				size = 12000
 			}
 			create_pop = {
 				culture = russian
 				size = 8000
+			}
+		}
+	}
+	s:STATE_MARIJAMPOLE = {
+		region_state:RUS = {
+			create_pop = {
+				culture = polish
+				size = 3596
+			}
+			create_pop = {
+				culture = lithuanian
+				size = 10000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 5000
+			}
+			create_pop = {
+				culture = north_german
+				size = 2000
 			}
 		}
 	}
