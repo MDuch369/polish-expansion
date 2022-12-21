@@ -6114,6 +6114,7 @@ STATES = {
 		}
 		
 		add_homeland = lithuanian
+		add_homeland = polish
 	}
 	s:STATE_CHUKOTKA = {
 		create_state = {
