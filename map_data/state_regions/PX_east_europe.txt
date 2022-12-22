@@ -8,11 +8,11 @@
     farm = "x41A021"
     mine = "x945000"
     wood = "x374AC3"
-    arable_land = 37
+    arable_land = 21
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_sulfur_mining = 40
-        bg_logging = 7
+        bg_logging = 5
         bg_fishing = 10
     }
     naval_exit_id = 3000
@@ -42,7 +42,7 @@ STATE_MASURIA = {
     farm = "x7D6DC3"
     mine = "xAEA6D6"
     wood = "x5428E6"
-    arable_land = 35
+    arable_land = 43
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 9

@@ -1301,11 +1301,11 @@ STATE_EAST_BRANDENBURG = {
     farm = "x60BF20"
     mine = "xF77289"
     wood = "x514C51"
-    arable_land = 31
+    arable_land = 39
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 14
-        bg_logging = 3
+        bg_logging = 5
     }
 }
 
