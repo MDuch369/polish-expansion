@@ -57,10 +57,10 @@ STATE_BREST = {
     farm = "x241A22" 
     mine = "xCB21FD"
     wood = "x8ABE62"
-    arable_land = 86
+    arable_land = 115
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 10
+        bg_logging = 17
     }
 }
 STATE_BIALYSTOK = {
@@ -86,10 +86,10 @@ STATE_ORSHA = {
     farm = "x8061E0"
     mine = "xC9634A"
     wood = "x361946"
-    arable_land = 148
+    arable_land = 119
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 23
+        bg_logging = 19
     }
 }
 STATE_MINSK = {
