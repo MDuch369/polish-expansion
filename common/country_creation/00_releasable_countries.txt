@@ -2226,3 +2226,13 @@ KLM = {
 
 	ai_will_do = { always = no }
 }
+
+COU = {
+	states = { 
+		STATE_COURLAND
+	}
+	
+	required_num_states = 1
+
+	ai_will_do = { always = no }
+}
