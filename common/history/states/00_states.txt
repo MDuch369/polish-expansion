@@ -6887,7 +6887,7 @@ STATES = {
 			owned_provinces = { x28CEC2 x3E3572 x0180A0 x514C51 x60BF20 xB90BFF xF77289 }
 		}
 		add_homeland = north_german
-		add_homeland = polish
+		# add_homeland = polish
 	}
 	s:STATE_SCHLESWIG_HOLSTEIN = {
 		create_state = {
@@ -7108,6 +7108,7 @@ STATES = {
 			owned_provinces = { x0EB3C7 x1A9FFE x364496 x37A636 x4D686A x5A26AE x71E0A0 x80FB0F x8201CF x862F77 xAC3079 xAC6FAE xAFEBC8 xE001E0 xE2F553 }
 		}
 		add_homeland = ukrainian
+		add_homeland = polish
 	}
 	s:STATE_PODOLIA = {
 		create_state = {
