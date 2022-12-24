@@ -3,7 +3,7 @@
 	
 	country_type = recognized
 
-	tier = duchy
+	tier = principality
 	
 	cultures = { north_german latvian }
 	capital = STATE_COURLAND
