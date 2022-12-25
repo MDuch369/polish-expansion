@@ -374,24 +374,24 @@
 	s:STATE_ULSTER = {
 		region_state:GBR = {
 			create_pop = {
-				culture = irish # Catholics
+				culture = irish				# Catholics
 				size = 1183122
 			}
 			create_pop = {
-				culture = british # Anglicans
+				culture = british				# Anglicans
 				size = 407111
 			}
 			create_pop = {
-				culture = irish # Anglicans
+				culture = irish				# Anglicans
 				religion = protestant
 				size = 71843
 			}
 			create_pop = {
-				culture = scottish  # Presbyterians and Methodists
+				culture = scottish				# Presbyterians and Methodists
 				size = 575084
 			}
 			create_pop = {
-				culture = irish  # Presbyterians and Methodists
+				culture = irish				# Presbyterians and Methodists
 				religion = protestant
 				size = 101485
 			}
@@ -400,24 +400,24 @@
 	s:STATE_MUNSTER = {
 		region_state:GBR = {
 			create_pop = {
-				culture = irish # Catholics
+				culture = irish				# Catholics
 				size = 2214388
 			}
 			create_pop = {
-				culture = british # Anglicans
+				culture = british				# Anglicans
 				size = 71856
 			}
 			create_pop = {
-				culture = irish # Anglicans
+				culture = irish				# Anglicans
 				religion = protestant
 				size = 47904
 			}
 			create_pop = {
-				culture = british  # Presbyterians and Methodists
+				culture = british				# Presbyterians and Methodists
 				size = 10049
 			}
 			create_pop = {
-				culture = irish  # Presbyterians and Methodists
+				culture = irish				# Presbyterians and Methodists
 				religion = protestant
 				size = 4040
 			}
@@ -426,28 +426,28 @@
 	s:STATE_LEINSTER = {
 		region_state:GBR = {
 			create_pop = {
-				culture = irish # Catholics
+				culture = irish				# Catholics
 				size = 1677581
 			}
 			create_pop = {
-				culture = british # Anglicans
+				culture = british				# Anglicans
 				size = 160989
 			}
 			create_pop = {
-				culture = irish # Anglicans
+				culture = irish				# Anglicans
 				religion = protestant
 				size = 68994
 			}
 			create_pop = {
-				culture = british  # Presbyterians and Methodists
+				culture = british				# Presbyterians and Methodists
 				size = 14385
 			}
 			create_pop = {
-				culture = scottish  # Presbyterians and Methodists
+				culture = scottish				# Presbyterians and Methodists
 				size = 4300
 			}
 			create_pop = {
-				culture = irish  # Presbyterians and Methodists
+				culture = irish				# Presbyterians and Methodists
 				religion = protestant
 				size = 8007
 			}
@@ -461,24 +461,24 @@
 	s:STATE_CONNAUGHT = {
 		region_state:GBR = {
 			create_pop = {
-				culture = irish # Catholics
+				culture = irish				# Catholics
 				size = 1319428
 			}
 			create_pop = {
-				culture = british # Anglicans
+				culture = british				# Anglicans
 				size = 28463
 			}
 			create_pop = {
-				culture = irish # Anglicans
+				culture = irish				# Anglicans
 				religion = protestant
 				size = 33413
 			}
 			create_pop = {
-				culture = british  # Presbyterians and Methodists
+				culture = british				# Presbyterians and Methodists
 				size = 4007
 			}
 			create_pop = {
-				culture = irish  # Presbyterians and Methodists
+				culture = irish				# Presbyterians and Methodists
 				size = 5170
 			}
 		}
@@ -908,7 +908,6 @@
 				culture = north_german
 				size = 234760
 			}
-
 			create_pop = {
 				culture = ashkenazi
 				size = 1000
@@ -996,7 +995,7 @@
 				culture = north_german
 				size = 27336
 			}
-		}	
+		}
 		region_state:SCM = {
 			create_pop = {
 				culture = north_german
@@ -1007,7 +1006,7 @@
 				culture = north_german
 				size = 8045
 			}
-		}			
+		}
 	}
 	s:STATE_ANHALT = {
 		region_state:PRU = {
@@ -1106,7 +1105,7 @@
 		region_state:PRU = {
 			create_pop = {
 				culture = north_german
-				size = 487095
+				size = 588161
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1187,7 +1186,7 @@
 				culture = south_german
 				size = 21024
 			}
-		}		
+		}
 	}
 	s:STATE_BADEN = {
 		region_state:BAD = {
@@ -1317,7 +1316,8 @@
 				culture = ashkenazi
 				size = 5072
 			}
-			create_pop = { # rough estimate of 200k Sorbs in 1836
+			create_pop = {
+				# rough estimate of 200k Sorbs in 1836
 				culture = sorb
 				size = 150106
 			}
@@ -1356,7 +1356,7 @@
 				culture = ashkenazi
 				size = 840
 			}
-		}	
+		}
 		region_state:COB = {
 			create_pop = {
 				culture = north_german
@@ -1371,7 +1371,7 @@
 				culture = ashkenazi
 				size = 502
 			}
-		}	
+		}
 		region_state:SCW = {
 			create_pop = {
 				culture = north_german
@@ -1386,7 +1386,7 @@
 				culture = ashkenazi
 				size = 293
 			}
-		}		
+		}
 	}
 	s:STATE_HESSE = {
 		region_state:FRM = {
@@ -1433,7 +1433,7 @@
 				culture = ashkenazi
 				size = 3400
 			}
-		}		
+		}
 		region_state:NAS = {
 			create_pop = {
 				culture = north_german
@@ -1459,7 +1459,7 @@
 				religion = catholic
 				size = 28011
 			}
-		}		
+		}
 	}
 	s:STATE_MECKLENBURG = {
 		region_state:MEC = {
@@ -1477,6 +1477,6 @@
 				culture = north_german
 				size = 85002
 			}
-		}		
+		}
 	}
 }
