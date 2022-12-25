@@ -649,7 +649,7 @@
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 100000
+				size = 120000
 			}
 			create_pop = {
 				culture = north_german
@@ -669,7 +669,7 @@
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 115000
+				size = 95000
 			}
 			create_pop = {
 				culture = north_german
@@ -824,7 +824,7 @@
 		region_state:PRU = {
 			create_pop = {
 				culture = north_german
-				size = 452400
+				size = 300000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -838,11 +838,6 @@
 			create_pop = {
 				culture = polish
 				size = 188400
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 8004
 			}
 		}
 	}
@@ -872,12 +867,12 @@
 		region_state:PRU = {
 			create_pop = {
 				culture = north_german
-				size = 89800
+				size = 141134
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 71200
+				size = 79204
 			}
 			create_pop = {
 				culture = ashkenazi

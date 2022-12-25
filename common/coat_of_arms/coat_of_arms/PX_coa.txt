@@ -7,3 +7,31 @@ COU = {
 		color1 = "white"
 	}
 }
+COU_governorate = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "blue"
+		color2 = "white"
+	}
+}
+
+POL_congress = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	sub = {
+        parent = "sub_RUS_crown" 
+        instance = { scale = { 0.4 0.4 } offset = { 0.3 0.05 } }
+    }
+    # sub = {
+    #     parent = "sub_RUS_coa" 
+    #     instance = { scale = { 0.9 0.9 } offset = { 0.05 0.075 } }
+    # }
+	sub = {
+        parent = "sub_POL_coa" 
+        instance = { scale = { 0.9 0.9 } offset = { 0.05 0.075 } }
+    }
+}
