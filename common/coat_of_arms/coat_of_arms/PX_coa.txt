@@ -20,6 +20,7 @@ COU = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "white"
 	}
+	
 }
 COU_governorate = {
 	pattern = "pattern_solid.tga"
@@ -41,6 +42,18 @@ LIV = {
 		color1 = "red"
 		color2 = "white"
 		color3 = "red"
+	}
+
+	colored_emblem = {
+		texture = "ce_shield_accolade_02.dds"
+		color1 = "red"
+		color2 = "white"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.49 } }		
+	}
+
+	textured_emblem = {
+		texture = "Coat_of_arms_of_Vidzeme.dds"
+		instance = { scale = { 0.6 0.6 } }
 	}
 }
 LIV_governorate = {
