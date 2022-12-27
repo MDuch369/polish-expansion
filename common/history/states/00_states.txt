@@ -6625,11 +6625,22 @@ STATES = {
 	s:STATE_EAST_SLOVAKIA = {
 		create_state = {
 			country = c:AUS
-			owned_provinces = { xC54074 xB23DA0 x7DE5D3 x51E061 x20C000 x02CE3A xA0531B x69BAC7 xC85CD0 x359378 }
+			owned_provinces = { xC54074 xB23DA0 x7DE5D3 x51E061 x20C000 x02CE3A }
 		}
 		
 		add_homeland = slovak
 		add_homeland = hungarian
+	}
+	s:STATE_SUBCARPATHIA = {
+		create_state = {
+			country = c:AUS
+			owned_provinces = { x359378 x69BAC7 xA0531B xC85CD0 }
+		}
+		
+		add_homeland = ukrainian
+		add_homeland = hungarian
+		add_homeland = slovak
+		add_homeland = rusyn
 	}
 	s:STATE_DALMATIA = {
 		create_state = {
