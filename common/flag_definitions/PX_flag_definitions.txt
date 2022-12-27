@@ -95,7 +95,7 @@ EST = { # Estonia
 		priority = 1
 	}
 	flag_definition = {
-		coa = EST_governoorate
+		coa = EST_governorate
 		priority = 50
 		trigger = {
 			coa_def_russian_ensign_trigger = yes

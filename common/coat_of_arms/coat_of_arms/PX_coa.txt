@@ -60,7 +60,7 @@ EST_governorate = {
 
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
-		color1 = "light_purple"
+		color1 = "purple"
 		color2 = "white"
 	}
 }
