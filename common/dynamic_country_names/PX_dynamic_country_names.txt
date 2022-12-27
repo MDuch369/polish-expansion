@@ -3,16 +3,42 @@
 LIV = {
 	dynamic_country_name = {
 		name = dyn_c_liv_governorate
-		# adjective = dyn_c_liv_governorate_adj
 		
 		priority = 0
 		
 		trigger = {
-			coa_def_russian_ensign_trigger = yes
-			# exists = scope:actor
-			# scope:actor = {			
-			# 	is_subject_of = c:RUS
-			# }
+			exists = scope:actor
+			scope:actor = {			
+				is_subject_of = c:RUS
+			}
+		}
+	}
+}
+COU = {
+	dynamic_country_name = {
+		name = dyn_c_cou_governorate
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {			
+				is_subject_of = c:RUS
+			}
+		}
+	}
+}
+EST = {
+	dynamic_country_name = {
+		name = dyn_c_est_governorate
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {			
+				is_subject_of = c:RUS
+			}
 		}
 	}
 }
