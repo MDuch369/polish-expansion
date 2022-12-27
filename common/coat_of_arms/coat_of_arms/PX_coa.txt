@@ -6,10 +6,6 @@ POL_congress = {
         parent = "sub_RUS_crown" 
         instance = { scale = { 0.4 0.4 } offset = { 0.3 0.05 } }
     }
-    # sub = {
-    #     parent = "sub_RUS_coa" 
-    #     instance = { scale = { 0.9 0.9 } offset = { 0.05 0.075 } }
-    # }
 	sub = {
         parent = "sub_POL_coa" 
         instance = { scale = { 0.9 0.9 } offset = { 0.05 0.075 } }
@@ -54,6 +50,17 @@ LIV_governorate = {
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "green"
+		color2 = "white"
+	}
+}
+
+EST_governorate = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "light_purple"
 		color2 = "white"
 	}
 }
