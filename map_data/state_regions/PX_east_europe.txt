@@ -403,7 +403,25 @@ STATE_INGRIA = {
 STATE_BRYANSK = {
     id = 136
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0319ED" "x03D6A7" "x0708A3" "x0A69A9" "x0B484F" "x1458A6" "x1CB8D8" "x270CD8" "x2C6090" "x2E05DE" "x348364" "x34B4C6" "x36D880" "x387D75" "x3ACCE8" "x5F64A2" "x675DF4" "x7EAE07" "x817D22" "x83B302" "x85EECF" "x8CE323" "x9723F8" "xA12B5A" "xAD965B" "xBCC260" "xBDDA3A" "xC31716" "xC482AD" "xCB4129" "xCD72A1" "xD0DA95" "xDAAE11" "xDD344F" "xDD790F" "xE08061" "xE682D3" "xE6CADD" "xE996D1" "xF49A18" "xFB1DC5" "xFC92C5" }
+    provinces = { "x0319ED" "x03D6A7" "x0708A3" "x0A69A9" "x0B484F" "x1458A6" "x1CB8D8" "x270CD8" "x2C6090" "x2E05DE" "x348364" "x34B4C6"
+     "x36D880" "x387D75" "x3ACCE8" "x5F64A2" "x675DF4" "x7EAE07" "x817D22" "x83B302" "x85EECF" "x8CE323" "x9723F8" "xA12B5A" "xAD965B"
+     "xBCC260" "xBDDA3A" "xC31716" "xC482AD" "xCB4129" "xCD72A1" "xD0DA95" "xDAAE11" "xDD344F" "xDD790F" "xE08061" "xE682D3" "xE6CADD"
+     "xE996D1" "xF49A18" "xFB1DC5" "xFC92C5" }
+    traits = { "state_trait_black_soil" "state_trait_dnieper_river" }
+    city = "x8CE323"
+    farm = "xD0DA95"
+    mine = "x11F253"
+    wood = "x2472F3"
+    arable_land = 288
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 33
+    }
+}
+STATE_STARODUB = {
+    id = 1017
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x032751" "x12AB15" "x44E2F9" "x93157C" "x925213" "xB020C6" "xBC0441" "xFEFF16" }
     traits = { "state_trait_black_soil" "state_trait_dnieper_river" }
     city = "x8CE323"
     farm = "xD0DA95"
@@ -418,9 +436,7 @@ STATE_BRYANSK = {
 STATE_SMOLENSK = {
     id = 137
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x03673A" "x1A2893" "x219D59" "x4C8BB8" "x6100EC" "x74F08E" "x93DF31" "x9BF7E1" "xACF404" "xC0A060" "xC0DF60" "xD8537A" 
-    "xECBC4D" "xFBBA8C" "x032751" "x12AB15" "x44E2F9" "x93157C" "x925213" "xB020C6" "xBC0441" "xFEFF16" "xA0A021" "x534355"
-     "x20A020" "x2EB40F" "x5699C6" "x6BE684" "x87264D" "x9692BD" "xFCDD8C" "xEA523C" "xD4F88C" "x25D843" "xD3CC3C" "xB56E0D" "x0B9BAA" }
+    provinces = { "x03673A" "x1A2893" "x219D59" "x4C8BB8" "x6100EC" "x74F08E" "x93DF31" "x9BF7E1" "xACF404" "xC0A060" "xC0DF60" "xD8537A" "xECBC4D" "xFBBA8C" "xA0A021" "x534355" "x20A020" "x2EB40F" "x5699C6" "x6BE684" "x87264D" "x9692BD" "xFCDD8C" "xEA523C" "xD4F88C" "x25D843" "xD3CC3C" "xB56E0D" "x0B9BAA" }
     traits = { "state_trait_russian_forest" }
     city = "xECBC4D"
     farm = "x205800"
