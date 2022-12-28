@@ -66,7 +66,7 @@ STATE_BREST = {
 STATE_BIALYSTOK = {
     id = 1001
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0087C9" "x117AE1" "x46B950" "x4969E4" "xB491B1" "xC06121" "xDE551D" }
+    provinces = { "x0087C9" "x117AE1" "x4969E4" "xC06121" "xDE551D" }
     city = "x0087C9" 
     farm = "x117AE1" 
     mine = "x46B950" 
@@ -75,6 +75,22 @@ STATE_BIALYSTOK = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 3
+    }
+}
+STATE_LESSER_POLAND = {
+    id = 157
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x29408F" "x40DF20" "x44ACBB" "x496950" "x51A0E0" "x57A53D" "x5FF022" "x6000DF" "x955F09" "x9FEDC5" "xA7B86B" "xAB3C62" "xAEB9A5" "xC061A0" "xD0A0E0" "xE0BB00" "xEB0783" "xF73169" "xB491B1" "x46B950" }
+    city = "xE0BB00"
+    farm = "xAB3C62"
+    mine = "x9FEDC5"
+    wood = "x51A0E0"
+    arable_land = 86
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 84
+        bg_lead_mining = 60
+        bg_logging = 13
     }
 }
 STATE_ORSHA = {
@@ -406,4 +422,36 @@ STATE_LUHANSK = {
         bg_fishing = 10
     }
     naval_exit_id = 3036
+}
+STATE_EAST_SLOVAKIA = {
+    id = 169
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x02CE3A" "x20C000" "x51E061" "x7DE5D3" "xB23DA0" "xC54074" }
+    city = "x7DE5D3"
+    farm = "x51E061"
+    mine = "x20C000"
+    wood = "x02CE3A"
+    arable_land = 51
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 54
+        bg_lead_mining = 19
+        bg_logging = 9
+    }
+}
+STATE_SUBCARPATHIA = {
+    id = 1013
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x359378" "x69BAC7" "xA0531B" "xC85CD0" }
+    city = "xC85CD0"
+    farm = "x359378"
+    mine = "xA0531B"
+    wood = "x69BAC7"
+    arable_land = 33
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 38
+        bg_lead_mining = 14
+        bg_logging = 6
+    }
 }

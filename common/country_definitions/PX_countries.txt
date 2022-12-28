@@ -1,11 +1,29 @@
-﻿COU = { # Courland
-	color = { 160 0 65 }
-	
+﻿COU = {
+	# Courland
+	color = { 190 65 245 }
 	country_type = recognized
-
 	tier = principality
-	
 	cultures = { north_german latvian }
 	capital = STATE_COURLAND
 }
 
+LIV = {
+	# Livonia
+	color = { 95 5 20 }
+	country_type = recognized
+	tier = principality
+	cultures = { north_german latvian estonian }
+	capital = STATE_LATVIA
+}
+
+WUA = { # Western Ukraine
+	color = { 50 100 150 }
+	country_type = recognized
+	tier = principality
+	
+	cultures = { 
+		ukrainian
+		rusyn
+	}
+	capital = STATE_EAST_GALICIA
+}
