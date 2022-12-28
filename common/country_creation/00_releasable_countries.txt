@@ -2250,14 +2250,25 @@ LIV = {
 }
 
 WUA = { #Western Ukraine
-
 	states = {
 		STATE_EAST_GALICIA
 		STATE_SUBCARPATHIA
 	}
 	ai_will_do = { always = NO }
+}
 
-	# possible = {
-	# 	has_technology_researched = nationalism
-	# }
+HET = { #Hetmanate
+	states = {
+		STATE_KIEV
+		STATE_ZHYTOMYR
+		STATE_ZAPORIZHZHIA
+		STATE_PODOLIA
+	}
+	ai_will_do = { always = NO }
+}
+ZAP = { # Zaporizhian Sich
+	states = {
+		STATE_ZAPORIZHZHIA
+	}
+	ai_will_do = { always = NO }
 }
