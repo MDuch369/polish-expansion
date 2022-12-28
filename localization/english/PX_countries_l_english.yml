@@ -11,4 +11,8 @@
  dyn_c_liv_governorate:0 "Livonia Governorate"
  dyn_c_cou_governorate:0 "Courland Governorate"
  dyn_c_est_governorate:0 "Estonia Governorate"
+ dyn_c_wua_polish:0 "Ruthenia"
+ dyn_c_wua_polish_adj:0 "Ruthenian"
+ dyn_c_wua_austrian:0 "East Galicia"
+ dyn_c_wua_austrian_adj:0 "Eastern Galician"
  

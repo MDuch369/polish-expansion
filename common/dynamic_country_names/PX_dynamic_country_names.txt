@@ -42,3 +42,31 @@ EST = {
 		}
 	}
 }
+WUA = {
+	dynamic_country_name = {
+		name = dyn_c_wua_polish
+		adjective = dyn_c_wua_polish_adj
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {			
+				is_subject_of = c:POL
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_wua_austrian
+		adjective = dyn_c_wua_austrian_adj
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {			
+				is_subject_of = c:AUS
+			}
+		}
+	}
+}

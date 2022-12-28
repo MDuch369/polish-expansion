@@ -86,13 +86,22 @@ LIV = { # Livonia
 			coa_def_russian_ensign_trigger = yes
 		}
 	}
-	# flag_definition = {
-	# 	coa = LIV_republic		
-	# 	priority = 50
-	# 	trigger = {
-	# 		coa_def_republic_flag_trigger = yes
-	# 	}
-	# }
+	flag_definition = {
+		coa = LIV_republic		
+		priority = 50
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = LIV_sub_pol		
+		priority = 50
+		trigger = {
+			exists = c:POL
+			c:POL = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
+		}
+	}
 } 
 
 EST = { # Estonia
@@ -131,5 +140,21 @@ WUA = { # Western Ukraine (uses ukrainian flag[may change later])
 		allow_overlord_canton = yes
 		coa_with_overlord_canton = UKR_subject		
 		priority = 1
+	}	
+	flag_definition = {
+		coa = WUA_absolute
+		priority = 10
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = WUA_sub_pol		
+		priority = 50
+		trigger = {
+			exists = c:POL
+			c:POL = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
+		}
 	}	
 }

@@ -66,16 +66,32 @@ LIV_governorate = {
 		color2 = "white"
 	}
 }
-# LIV_republic = {
-# 	pattern = "pattern_solid.tga"
-# 	color1 = "red"
+LIV_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
 
-# 	colored_emblem = {
-# 		texture = "ce_cross_england_fimbriated.dds"
-# 		color1 = "white"
-# 		color2 = "red"
-# 	}
-# }
+	colored_emblem = {
+		texture = "ce_cross_england_fimbriated.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+}
+LIV_sub_pol = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "Coat_of_arms_of_Vidzeme.dds"
+		instance = { position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_crown_ducal.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "yellow"
+		instance = { scale = { 0.3 0.3 } position = { 0.48 0.1 }}
+	}
+}
 
 EST_governorate = {
 	pattern = "pattern_solid.tga"
@@ -85,5 +101,39 @@ EST_governorate = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "purple"
 		color2 = "white"
+	}
+}
+
+WUA_absolute = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_shield_accolade_02.dds"
+		color1 = "blue"
+		color2 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "white"
+		instance = { scale = { 0.7 0.7 } }		
+	}
+}
+WUA_sub_pol = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_lion_rampant_crowned.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "white"	
 	}
 }
