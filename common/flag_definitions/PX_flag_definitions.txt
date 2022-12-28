@@ -86,13 +86,13 @@ LIV = { # Livonia
 			coa_def_russian_ensign_trigger = yes
 		}
 	}
-	flag_definition = {
-		coa = LIV_republic		
-		priority = 50
-		trigger = {
-			coa_def_republic_flag_trigger = yes
-		}
-	}
+	# flag_definition = {
+	# 	coa = LIV_republic		
+	# 	priority = 50
+	# 	trigger = {
+	# 		coa_def_republic_flag_trigger = yes
+	# 	}
+	# }
 } 
 
 EST = { # Estonia
