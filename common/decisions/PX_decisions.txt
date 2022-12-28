@@ -27,4 +27,8 @@
 		s:STATE_POMERANIA = { add_claim = c:POL }
 		s:STATE_MASURIA = { add_claim = c:POL }
 	}
+
+	ai_chance = {
+		base = 1
+	}
 }
