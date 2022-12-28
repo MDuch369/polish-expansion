@@ -1,6 +1,6 @@
 ﻿COU = {
 	# Courland
-	color = { 160 0 65 }
+	color = { 190 65 245 }
 	country_type = recognized
 	tier = principality
 	cultures = { north_german latvian }
