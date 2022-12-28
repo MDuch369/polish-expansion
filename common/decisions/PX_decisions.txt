@@ -1,0 +1,30 @@
+﻿piast_borders_decision = {
+
+	is_shown = {
+		exists = c:POL
+		this = c:POL
+	}
+
+	possible = {
+		this = c:POL
+		has_technology_researched = nationalism
+		this = {
+			is_subject = no
+			AND = {
+				owns_entire_state_region = STATE_MAZOVIA
+				owns_entire_state_region = STATE_LESSER_POLAND
+				owns_entire_state_region = STATE_GREATER_POLAND
+				owns_entire_state_region = STATE_WEST_GALICIA
+				owns_entire_state_region = STATE_WEST_PRUSSIA
+				owns_entire_state_region = STATE_POSEN
+			}
+		}
+	}
+
+	when_taken = {
+		s:STATE_SILESIA = { add_claim = c:POL }
+		s:STATE_EAST_BRANDENBURG = { add_claim = c:POL }
+		s:STATE_POMERANIA = { add_claim = c:POL }
+		s:STATE_MASURIA = { add_claim = c:POL }
+	}
+}
