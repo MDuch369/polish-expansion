@@ -1,4 +1,14 @@
 ﻿l_english:
  COU:0 "Courland"
  COU_ADJ:0 "Couronian"
+ LIV:0 "Livonia"
+ LIV_ADJ:0 "Livonian"
+ WUA:0 "Western Ukraine"
+ WUA_ADJ:0 "Western Ukrainian"
+
+### dynamic names ###
+
+ dyn_c_liv_governorate:0 "Livonia Governorate"
+ dyn_c_cou_governorate:0 "Courland Governorate"
+ dyn_c_est_governorate:0 "Estonia Governorate"
  

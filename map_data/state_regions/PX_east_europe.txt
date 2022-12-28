@@ -131,7 +131,6 @@ STATE_LESSER_POLAND = {
         bg_logging = 13
     }
 }
-
 STATE_ORSHA = {
     id = 138
     subsistence_building = "building_subsistence_farms"
@@ -448,5 +447,38 @@ STATE_SMOLENSK = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 20
+    }
+}
+
+STATE_EAST_SLOVAKIA = {
+    id = 169
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x02CE3A" "x20C000" "x51E061" "x7DE5D3" "xB23DA0" "xC54074" }
+    city = "x7DE5D3"
+    farm = "x51E061"
+    mine = "x20C000"
+    wood = "x02CE3A"
+    arable_land = 51
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 54
+        bg_lead_mining = 19
+        bg_logging = 9
+    }
+}
+STATE_SUBCARPATHIA = {
+    id = 1013
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x359378" "x69BAC7" "xA0531B" "xC85CD0" }
+    city = "xC85CD0"
+    farm = "x359378"
+    mine = "xA0531B"
+    wood = "x69BAC7"
+    arable_land = 33
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 38
+        bg_lead_mining = 14
+        bg_logging = 6
     }
 }
