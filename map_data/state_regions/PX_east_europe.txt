@@ -493,7 +493,7 @@ STATE_LUHANSK = {
     naval_exit_id = 3036
 }
 STATE_SLOBODA = {
-    id = 143
+    id = 1016
     subsistence_building = "building_subsistence_farms"
     provinces = { "x46BD2E" "xFA0D5E" "x04E110" "x14786A" "x9C070F" "xF061E0" "xA0A57F" "xBBC6BF" "xBC52ED" "x628FBE" "x3C30D4" "x5B788C"
     "xFC92C5" "x36D880" "xD0DA95" "xAD965B" "x0319ED" "x1CB8D8" "x4C5706" "x3C304D" "x0A69A9" }
