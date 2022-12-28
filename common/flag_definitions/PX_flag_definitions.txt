@@ -86,6 +86,13 @@ LIV = { # Livonia
 			coa_def_russian_ensign_trigger = yes
 		}
 	}
+	flag_definition = {
+		coa = LIV_republic		
+		priority = 50
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
 } 
 
 EST = { # Estonia
@@ -114,5 +121,15 @@ EST = { # Estonia
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
+	}	
+}
+
+WUA = { # Western Ukraine (uses ukrainian flag[may change later])
+	flag_definition = {
+		coa = UKR 
+		subject_canton = UKR
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = UKR_subject		
+		priority = 1
 	}	
 }

@@ -66,6 +66,16 @@ LIV_governorate = {
 		color2 = "white"
 	}
 }
+LIV_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_cross_england_fimbriated.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+}
 
 EST_governorate = {
 	pattern = "pattern_solid.tga"

@@ -2227,6 +2227,8 @@ KLM = {
 	ai_will_do = { always = no }
 }
 
+### MODED COUNTRIES ###
+
 COU = {
 	states = { 
 		STATE_COURLAND
@@ -2245,4 +2247,17 @@ LIV = {
 	required_num_states = 2
 
 	ai_will_do = { always = no }
+}
+
+WUA = { #Western Ukraine
+
+	states = {
+		STATE_EAST_GALICIA
+		STATE_SUBCARPATHIA
+	}
+	ai_will_do = { always = NO }
+
+	# possible = {
+	# 	has_technology_researched = nationalism
+	# }
 }
