@@ -76,6 +76,10 @@
 				culture = lithuanian
 				size = 154033
 			}
+			create_pop = {
+				culture = tatar
+				size = 2000
+			}
 		}
 	}
 	s:STATE_MOSCOW = {
@@ -121,6 +125,10 @@
 			create_pop = {
 				culture = lithuanian
 				size = 30363
+			}
+			create_pop = {
+				culture = tatar
+				size = 1000
 			}
 		}
 	}
@@ -655,6 +663,10 @@
 				culture = north_german
 				size = 10000
 			}
+			create_pop = {
+				culture = tatar
+				size = 2000
+			}
 		}
 	}
 	s:STATE_VILNIUS = {
@@ -679,6 +691,10 @@
 				culture = russian
 				size = 8000
 			}
+			create_pop = {
+				culture = tatar
+				size = 1000
+			}
 		}
 	}
 	s:STATE_MARIJAMPOLE = {
@@ -698,6 +714,10 @@
 			create_pop = {
 				culture = north_german
 				size = 2000
+			}
+			create_pop = {
+				culture = tatar
+				size = 1000
 			}
 		}
 	}
