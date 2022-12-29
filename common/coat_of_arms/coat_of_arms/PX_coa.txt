@@ -137,3 +137,12 @@ WUA_sub_pol = {
 		color3 = "white"	
 	}
 }
+
+POZ = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "white"
+	}
+}
