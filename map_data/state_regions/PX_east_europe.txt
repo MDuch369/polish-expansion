@@ -447,9 +447,7 @@ STATE_SMOLENSK = {
 STATE_ZAPORIZHZHIA = {
     id = 1012
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x13997A" "x29EE58" "x3DA304" "x4ABD60" "x652CE8" "x71E061" "x726291" "x73216A" "x7FC1CF" "x924D7E" "x925815" "xE315A3" "xF0E0A0"
-     "xF60A93" "xFD6659" "x19213B" "x5BE6ED" "x7141E0" "x9E24DE" "xB285AE" "xCFBD13" "xDEBC1D" "x0708A3" "x0B484F" "xBCC260" "xCB4129" "xCD72A1" 
-     "xDAAE11" "x0EBC1D" }
+    provinces = { "x13997A" "x29EE58" "x3DA304" "x4ABD60" "x652CE8" "x71E061" "x726291" "x73216A" "x7FC1CF" "x924D7E" "x925815" "xE315A3" "xF0E0A0" "xF60A93" "xFD6659" "x19213B" "x5BE6ED" "x7141E0" "x9E24DE" "xB285AE" "xCFBD13" "xDEBC1D" "x0708A3" "x0B484F" "xBCC260" "xCB4129" "xCD72A1" "xDAAE11" "x0EBC1D" }
     traits = { "state_trait_black_soil" "state_trait_dnieper_river" }
     city = "x8CE323"
     farm = "xD0DA95"
@@ -465,8 +463,7 @@ STATE_ZAPORIZHZHIA = {
 STATE_CHERSON = {
     id = 146
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x000AE0" "x0E1864" "x135B1E" "x305004" "x3E5AF0" "x3E66A1" "x421B54" "x716121" "x71E021" "x89CE7C" "x8A09FD" "xA669E7" "xA81C77"
-     "xB02161" "xB5123B" "xCC0D93" "xD7E3C1" "xE4AA78" "xF9066A" "xFDD2CF" }
+    provinces = { "x000AE0" "x0E1864" "x135B1E" "x305004" "x3E5AF0" "x3E66A1" "x421B54" "x716121" "x71E021" "x89CE7C" "x8A09FD" "xA669E7" "xA81C77" "xB02161" "xB5123B" "xCC0D93" "xD7E3C1" "xE4AA78" "xF9066A" "xFDD2CF" }
     traits = { "state_trait_black_soil" "state_trait_dnieper_river" }
     city = "x89CE7C"
     port = "x716121"
@@ -485,9 +482,7 @@ STATE_CHERSON = {
 STATE_LUHANSK = {
     id = 143
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x055C67" "x35FCF1" "x386376" "x4202ED" "x500F88" "x580D2A"
-      "x58331B" "x5AB195" "x637D8D" "x7020DF" "x7161E0" "x71E0E0" "x76E2A3" "x87109C" "x9A1118"
-      "xA1BAF7" "xAD4F1C" "xB06935" "xB69E4B" "xC262E0" "xE6C06A" "xF06161" "xF0E061" }
+    provinces = { "x055C67" "x35FCF1" "x386376" "x4202ED" "x500F88" "x580D2A" "x58331B" "x5AB195" "x637D8D" "x7020DF" "x7161E0" "x71E0E0" "x76E2A3" "x87109C" "x9A1118" "xA1BAF7" "xAD4F1C" "xB06935" "xB69E4B" "xC262E0" "xE6C06A" "xF06161" "xF0E061" }
     traits = { "state_trait_black_soil" "state_trait_dnieper_river" }
     city = "xFA0D5E"
     port = "xF0E061"
