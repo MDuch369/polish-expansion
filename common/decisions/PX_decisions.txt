@@ -8,7 +8,6 @@
 				has_claim = s:STATE_SILESIA
 				has_claim = s:STATE_EAST_BRANDENBURG
 				has_claim = s:STATE_POMERANIA
-				has_claim = s:STATE_MASURIA
 			}
 		}
 
@@ -35,7 +34,6 @@
 		s:STATE_SILESIA = { add_claim = c:POL }
 		s:STATE_EAST_BRANDENBURG = { add_claim = c:POL }
 		s:STATE_POMERANIA = { add_claim = c:POL }
-		s:STATE_MASURIA = { add_claim = c:POL }
 	}
 
 	ai_chance = {
@@ -64,10 +62,10 @@ claim_prussia_decision = {
 				owns_entire_state_region = STATE_MAZOVIA
 				owns_entire_state_region = STATE_LESSER_POLAND
 				owns_entire_state_region = STATE_GREATER_POLAND
-				owns_entire_state_region = STATE_WEST_GALICIA
+				# owns_entire_state_region = STATE_WEST_GALICIA
 				owns_entire_state_region = STATE_WEST_PRUSSIA
-				owns_entire_state_region = STATE_POSEN
-				owns_entire_state_region = STATE_UPPER_SILESIA
+				# owns_entire_state_region = STATE_POSEN
+				# owns_entire_state_region = STATE_UPPER_SILESIA
 			}
 		}
 	}
