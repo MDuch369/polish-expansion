@@ -158,3 +158,22 @@ WUA = { # Western Ukraine (uses ukrainian flag[may change later])
 		}
 	}	
 }
+
+POZ = {
+	flag_definition = {
+		coa = POZ 
+		subject_canton = POZ
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = POZ_subject		
+		priority = 1
+	}
+	flag_definition = {
+		coa = POZ_sub_pol		
+		priority = 50
+		trigger = {
+			exists = c:POL
+			c:POL = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
+		}
+	}
+}
