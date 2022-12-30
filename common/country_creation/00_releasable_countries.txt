@@ -413,7 +413,10 @@ CRE = {
 }
 
 POM = {
-	states = { STATE_POMERANIA }
+	states = { 
+		STATE_POMERANIA
+		STATE_WEST_POMERANIA
+	}
 	
 	ai_will_do = { always = no }
 }
