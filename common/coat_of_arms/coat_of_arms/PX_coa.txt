@@ -142,6 +142,21 @@ WUA_sub_pol = {
 	}
 }
 
+CAR ={
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal_thick.dds"
+		color1 = "blue"
+		color2 = "white"
+		instance = { position = { 0.5 0.25} }		
+	}
+	textured_emblem = {
+		texture = "te_carpathia.dds"
+		# instance = { position = { 0.5 0.25} }		
+	}
+}
+
 ### Prussia ###
 
 POZ = {

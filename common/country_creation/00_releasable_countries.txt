@@ -2298,3 +2298,10 @@ PML = { # Pomerelia
 	}	
 	ai_will_do = { always = NO }
 }
+
+CAR = { # Carpathian ruthenia
+	
+	states = { 
+		STATE_SUBCARPATHIA
+	}
+}
