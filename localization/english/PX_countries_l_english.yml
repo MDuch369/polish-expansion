@@ -11,6 +11,8 @@
  SLS_ADJ:0 "Silesian"
  PLB:0 "Polabia"
  PLB_ADJ:0 "Polabian"
+ PML:0 "Pomerelia"
+ PML_ADJ "Pomerelian"
 
 ### dynamic names ###
 

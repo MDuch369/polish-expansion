@@ -2291,3 +2291,10 @@ PLB = { # Polabia
 	}	
 	ai_will_do = { always = NO }
 }
+
+PML = { # Pomerelia
+	states = {
+		STATE_WEST_PRUSSIA
+	}	
+	ai_will_do = { always = NO }
+}
