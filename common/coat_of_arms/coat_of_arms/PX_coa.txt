@@ -52,7 +52,7 @@ LIV = {
 	}
 
 	textured_emblem = {
-		texture = "Coat_of_arms_of_Vidzeme.dds"
+		texture = "te_griffon_with_sword.dds"
 		instance = { scale = { 0.6 0.6 } }
 	}
 }
@@ -162,4 +162,33 @@ POZ_sub_pol = {
 		color3 = "white"
 		# instance = { scale = { 0.9 0.9 } position = { 0.5 0.49 } }
 	}	
+}
+
+SLS = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_shield_accolade_02.dds"
+		color1 = "yellow"
+		color2 = "black"
+		instance = { position = { 0.5 0.49 } }
+	}
+	textured_emblem = {
+		texture = "te_silesian_eagle.dds"
+		instance = { scale = { 0.7 0.7 } }
+	}
+}
+SLS_sub_pru= {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow"
+	}
 }

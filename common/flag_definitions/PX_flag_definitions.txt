@@ -177,3 +177,19 @@ POZ = {
 		}
 	}
 }
+SLS = {
+	flag_definition = {
+		coa = SLS 
+		subject_canton = SLS
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = SLS_subject		
+		priority = 1
+	}
+	flag_definition = {
+		coa = SLS_sub_pru		
+		priority = 50
+		trigger = {
+			coa_def_prussian_ensign_trigger = yes
+		}
+	}
+}

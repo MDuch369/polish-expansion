@@ -2268,3 +2268,11 @@ POZ = { # Poznań
 	}	
 	ai_will_do = { always = NO }
 }
+
+SLS = { # Silesia
+	states = {
+		STATE_SILESIA
+		STATE_UPPER_SILESIA
+	}	
+	ai_will_do = { always = NO }
+}
