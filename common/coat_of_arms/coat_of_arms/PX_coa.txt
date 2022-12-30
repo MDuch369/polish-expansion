@@ -12,6 +12,8 @@ POL_congress = {
     }
 }
 
+### Baltics ###
+
 COU = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -52,7 +54,7 @@ LIV = {
 	}
 
 	textured_emblem = {
-		texture = "te_griffon_with_sword.dds"
+		texture = "te_griffin_with_sword.dds"
 		instance = { scale = { 0.6 0.6 } }
 	}
 }
@@ -104,6 +106,8 @@ EST_governorate = {
 	}
 }
 
+### Ukraine ###
+
 WUA_absolute = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
@@ -137,6 +141,8 @@ WUA_sub_pol = {
 		color3 = "white"	
 	}
 }
+
+### Prussia ###
 
 POZ = {
 	pattern = "pattern_solid.tga"
@@ -186,7 +192,7 @@ SLS = {
 		instance = { scale = { 0.7 0.7 } }
 	}
 }
-SLS_sub_pru= {
+SLS_sub_pru = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 
@@ -196,7 +202,7 @@ SLS_sub_pru= {
 	}
 }
 
-PLB= {
+PLB = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
 
@@ -212,26 +218,14 @@ PLB= {
 	}
 }
 
-PLB= {
-	pattern = "pattern_solid.tga"
-	color1 = "yellow"
-
-	colored_emblem = {
-		texture = "ce_bull_head.dds"
-		color1 = "black"
-		color2 = "white"
-		color3 = "white"
-	}
-}
-
-PML= {
+PML = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
 
 	colored_emblem = {
 		texture = "ce_griffin.dds"
 		color1 = "black"
-		color2 = "white"
+		color2 = "black"
 		color3 = "white"
 	}
 }
