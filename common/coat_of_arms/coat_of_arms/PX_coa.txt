@@ -167,7 +167,7 @@ POZ_sub_pol = {
 SLS = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-	
+
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "yellow"
@@ -190,5 +190,17 @@ SLS_sub_pru= {
 	colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "yellow"
+	}
+}
+
+PLB= {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_bull_head.dds"
+		color1 = "black"
+		color2 = "white"
+		color3 = "white"
 	}
 }

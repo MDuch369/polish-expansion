@@ -53,3 +53,16 @@ SLS = { # Silesia
 	}
 	capital = STATE_SILESIA
 }
+
+PLB = { # Polabia
+	color = { 0 140 195 }
+	
+	country_type = recognized
+
+	tier = principality
+	cultures = { 
+		polish
+		sorb
+	}
+	capital = STATE_MECKLENBURG
+}
