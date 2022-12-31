@@ -2280,17 +2280,17 @@ SLS = { # Silesia
 	ai_will_do = { always = NO }
 }
 
-PLB = { # Polabia
-	states = {
-		STATE_MECKLENBURG
-		STATE_WEST_POMERANIA
-		STATE_BRANDENBURG
-		# STATE_EAST_BRANDENBURG
-		STATE_SAXONY
-		STATE_ANHALT
-	}	
-	ai_will_do = { always = NO }
-}
+# PLB = { # Polabia
+# 	states = {
+# 		STATE_MECKLENBURG
+# 		STATE_WEST_POMERANIA
+# 		STATE_BRANDENBURG
+# 		# STATE_EAST_BRANDENBURG
+# 		STATE_SAXONY
+# 		STATE_ANHALT
+# 	}	
+# 	ai_will_do = { always = NO }
+# }
 
 PML = { # Pomerelia
 	states = {
