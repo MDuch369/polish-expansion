@@ -76,6 +76,10 @@
 				culture = lithuanian
 				size = 154033
 			}
+			create_pop = {
+				culture = tatar
+				size = 2000
+			}
 		}
 	}
 	s:STATE_MOSCOW = {
@@ -122,6 +126,10 @@
 				culture = lithuanian
 				size = 30363
 			}
+			create_pop = {
+				culture = tatar
+				size = 1000
+			}
 		}
 	}
 	s:STATE_VOLHYNIA = {
@@ -142,6 +150,10 @@
 				culture = ashkenazi
 				size = 98880
 			}
+			create_pop = {
+				culture = armenian
+				size = 2000
+			}
 		}
 	}
 	s:STATE_PODOLIA = {
@@ -161,6 +173,10 @@
 			create_pop = {
 				culture = ashkenazi
 				size = 65920
+			}
+			create_pop = {
+				culture = armenian
+				size = 2000
 			}
 		}
 	}
@@ -715,6 +731,10 @@
 				culture = north_german
 				size = 10000
 			}
+			create_pop = {
+				culture = tatar
+				size = 2000
+			}
 		}
 	}
 	s:STATE_VILNIUS = {
@@ -739,6 +759,10 @@
 				culture = russian
 				size = 8000
 			}
+			create_pop = {
+				culture = tatar
+				size = 1000
+			}
 		}
 	}
 	s:STATE_MARIJAMPOLE = {
@@ -758,6 +782,10 @@
 			create_pop = {
 				culture = north_german
 				size = 2000
+			}
+			create_pop = {
+				culture = tatar
+				size = 1000
 			}
 		}
 	}
@@ -878,6 +906,11 @@
 				culture = north_german
 				size = 20000
 			}
+			create_pop = {
+				culture = armenian
+				size = 2000
+			}
+			
 		}
 	}
 	s:STATE_WEST_PRUSSIA = {
@@ -988,6 +1021,10 @@
 				culture = ashkenazi
 				size = 136000
 			}
+			create_pop = {
+				culture = armenian
+				size = 2000
+			}
 		}
 		region_state:KRA = {
 			create_pop = {
@@ -1025,6 +1062,10 @@
 			create_pop = {
 				culture = ashkenazi
 				size = 180000
+			}
+			create_pop = {
+				culture = armenian
+				size = 5000
 			}
 		}
 	}
@@ -1379,6 +1420,10 @@
 			create_pop = {
 				culture = south_german
 				size = 32000
+			}
+			create_pop = {
+				culture = armenian
+				size = 2000
 			}
 		}
 		region_state:MOL = {

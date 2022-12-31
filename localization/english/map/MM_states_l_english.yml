@@ -3,6 +3,7 @@
  STATE_MASURIA:0 "Masuria" 
  STATE_WEST_POMERANIA:0 "West Pomerania"
  STATE_EAST_BRANDENBURG:0 "East Brandenburg"
+ STATE_UPPER_SILESIA:0 "Upper Silesia"
  STATE_BIALYSTOK:0 "Bialystok"
  STATE_MARIJAMPOLE:0 "Marijampole"
  STATE_VILNIUS:0 "Vilnius"
