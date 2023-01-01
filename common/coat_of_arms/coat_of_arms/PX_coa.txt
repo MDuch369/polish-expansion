@@ -244,3 +244,23 @@ PML = {
 		color3 = "white"
 	}
 }
+
+ZAP = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_archangel_michael_with_dragon.dds"
+		# instance = { scale = { 0.45 0.45} }		
+	}
+}
+
+HET = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	textured_emblem = {
+		texture = "te_cossack_with_musket_02.dds"
+		# instance = { scale = { 0.45 0.45} }		
+	}
+}

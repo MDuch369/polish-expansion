@@ -2266,6 +2266,7 @@ HET = { #Hetmanate
 		STATE_ZHYTOMYR
 		STATE_ZAPORIZHZHIA
 		STATE_PODOLIA
+		STATE_STARODUB
 	}
 	ai_will_do = { always = NO }
 }

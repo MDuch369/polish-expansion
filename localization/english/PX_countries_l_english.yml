@@ -15,6 +15,10 @@
  PML_ADJ "Pomerelian"
  CAR:0 "Carpathian Ruthenia"
  CAR_ADJ:0 "Carpathian"
+ HET:0 "Cossack Hetmanate"
+ HET_ADJ:0 "Cossack"
+ ZAP:0 "Zaporizhia"
+ ZAP_ADJ:0 "Zaporizhian"
 
 ### dynamic names ###
 
