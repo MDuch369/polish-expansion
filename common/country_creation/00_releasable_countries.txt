@@ -413,7 +413,10 @@ CRE = {
 }
 
 POM = {
-	states = { STATE_POMERANIA }
+	states = { 
+		STATE_POMERANIA
+		STATE_WEST_POMERANIA
+	}
 	
 	ai_will_do = { always = no }
 }
@@ -2271,4 +2274,48 @@ ZAP = { # Zaporizhian Sich
 		STATE_ZAPORIZHZHIA
 	}
 	ai_will_do = { always = NO }
+	# possible = {
+	# 	has_technology_researched = nationalism
+	# }
+}
+
+POZ = { # Poznań
+	states = {
+		STATE_POSEN
+	}	
+	ai_will_do = { always = NO }
+}
+
+SLS = { # Silesia
+	states = {
+		STATE_SILESIA
+		STATE_UPPER_SILESIA
+	}	
+	ai_will_do = { always = NO }
+}
+
+# PLB = { # Polabia
+# 	states = {
+# 		STATE_MECKLENBURG
+# 		STATE_WEST_POMERANIA
+# 		STATE_BRANDENBURG
+# 		# STATE_EAST_BRANDENBURG
+# 		STATE_SAXONY
+# 		STATE_ANHALT
+# 	}	
+# 	ai_will_do = { always = NO }
+# }
+
+PML = { # Pomerelia
+	states = {
+		STATE_WEST_PRUSSIA
+	}	
+	ai_will_do = { always = NO }
+}
+
+CAR = { # Carpathian ruthenia
+	
+	states = { 
+		STATE_SUBCARPATHIA
+	}
 }

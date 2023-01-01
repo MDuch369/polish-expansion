@@ -28,6 +28,70 @@ WUA = { # Western Ukraine
 	capital = STATE_EAST_GALICIA
 }
 
+POZ = { # Poznań
+	color = { 150 90 110 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+	cultures = { 
+		polish
+		north_german
+	}
+	capital = STATE_POSEN
+}
+SLS = { # Silesia
+	color = { 180 170 30 }
+	
+	country_type = recognized
+
+	tier = principality
+	cultures = { 
+		polish
+		north_german
+		south_german
+	}
+	capital = STATE_SILESIA
+}
+
+# PLB = { # Polabia
+# 	color = { 0 140 195 }
+	
+# 	country_type = recognized
+
+# 	tier = principality
+# 	cultures = { 
+# 		# polish
+# 		sorb
+# 	}
+# 	capital = STATE_MECKLENBURG
+# }
+
+PML = { # Pomerelia
+	color = { 250 250 95 }
+	
+	country_type = recognized
+
+	tier = principality
+	cultures = { 
+		polish
+	}
+	capital = STATE_WEST_PRUSSIA
+}
+
+CAR = { # Carpathian ruthenia
+	color = { 200 100 150 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { 
+		ukrainian
+		rusyn
+	}
+	capital = STATE_SUBCARPATHIA
+}
 HET = { # Hetmanate
 	color = { 110 80 115 }
 	country_type = recognized
