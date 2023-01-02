@@ -244,6 +244,16 @@ PML = {
 		color3 = "white"
 	}
 }
+PML_sub_pru = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = color1
+	}
+}
 
 ZAP = {
 	pattern = "pattern_solid.tga"
