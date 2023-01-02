@@ -339,3 +339,15 @@ EPR_sub_pol = {
 		instance = { scale = { 0.3 0.3 } position = { 0.5 0.28 } }
 	}
 }
+
+NEM = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_eagle.dds"
+		color1 = "red"
+		color2 = "yellow"
+		color3 = "white"
+		instance = { scale = { 1.2 1.2 } position = { 0.5 0.45 } }
+	}
+}

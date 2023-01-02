@@ -115,3 +115,19 @@ EPR = {
 		}
 	}
 }
+
+NEM = {
+	dynamic_country_name = {
+		name = dyn_c_nem_polish
+		adjective = dyn_c_nem_polish_adj
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {			
+				is_subject_of = c:POL
+			}
+		}
+	}
+}

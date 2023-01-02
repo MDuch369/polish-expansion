@@ -119,8 +119,7 @@ PML = { # Pomerelia
 	}
 	capital = STATE_WEST_PRUSSIA
 }
-
-EPR = {
+EPR = { # East Prussia
 	color = { 110 120 140 }
 	
 	country_type = recognized
@@ -131,4 +130,16 @@ EPR = {
 		north_german
 	}
 	capital = STATE_EAST_PRUSSIA
+}
+NEM = { # Neumark
+	color = { 5 150 40 }
+	
+	country_type = recognized
+
+	tier = county
+	cultures = { 
+		polish
+		north_german
+	}
+	capital = STATE_EAST_BRANDENBURG
 }

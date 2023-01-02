@@ -2332,3 +2332,9 @@ EPR = { # East Prussia
 	}
 	ai_will_do = { always = NO }
 }
+NEM = { # Neumark
+	states = {
+		STATE_EAST_BRANDENBURG
+	}
+	ai_will_do = { always = NO }
+}
