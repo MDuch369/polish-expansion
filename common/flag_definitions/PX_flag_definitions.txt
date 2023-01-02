@@ -183,10 +183,7 @@ POZ = {
 }
 SLS = {
 	flag_definition = {
-		coa = SLS 
-		subject_canton = SLS
-		allow_overlord_canton = yes
-		coa_with_overlord_canton = SLS_subject		
+		coa = SLS 		
 		priority = 1
 	}
 	flag_definition = {
@@ -200,9 +197,9 @@ SLS = {
 PML = {
 	flag_definition = {
 		coa = PML 
-		subject_canton = PML
-		allow_overlord_canton = yes
-		coa_with_overlord_canton = PML_subject		
+		# subject_canton = PML
+		# allow_overlord_canton = yes
+		# coa_with_overlord_canton = PML_subject		
 		priority = 1
 	}
 	flag_definition = {
@@ -210,6 +207,15 @@ PML = {
 		priority = 50
 		trigger = {
 			coa_def_prussian_ensign_trigger = yes
+		}
+		flag_definition = {
+			coa = PML_sub_pol		
+			priority = 50
+			trigger = {
+				exists = c:POL
+				c:POL = { save_temporary_scope_as = custom_overlord }
+				coa_def_ensign_trigger = yes
+			}
 		}
 	}
 }
@@ -223,6 +229,21 @@ EPR = {
 	}
 	flag_definition = {
 		coa = EPR_sub_pol		
+		priority = 50
+		trigger = {
+			exists = c:POL
+			c:POL = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
+		}
+	}
+}
+POM = {
+	flag_definition = {	
+		coa = POM
+		priority = 1
+	}
+	flag_definition = {
+		coa = POM_sub_pol		
 		priority = 50
 		trigger = {
 			exists = c:POL

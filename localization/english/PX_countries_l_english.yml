@@ -19,6 +19,8 @@
  HET_ADJ:0 "Cossack"
  ZAP:0 "Zaporizhia"
  ZAP_ADJ:0 "Zaporizhian"
+ EPR:0 "East Prussia"
+ EPR_ADJ:0 "East Prussian"
 
 ### dynamic names ###
 
@@ -31,4 +33,8 @@
  dyn_c_wua_austrian_adj:0 "Eastern Galician"
  dyn_c_pml_prussian:0 "West Prussia"
  dyn_c_pml_prussian_adj "West Prussian"
+ dyn_c_pml_polish:0 "Royal Prussia"
+ dyn_c_pml_polish_adj "Royal Prussian"
+ dyn_c_epr_polish:0 "Ducal Prussia"
+ dyn_c_epr_polish_adj "Ducal Prussian"
  

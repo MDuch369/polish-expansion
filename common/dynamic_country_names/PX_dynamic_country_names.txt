@@ -85,4 +85,33 @@ PML = {
 			}
 		}
 	}
+	dynamic_country_name = {
+		name = dyn_c_pml_polish
+		adjective = dyn_c_pml_polish_adj
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {			
+				is_subject_of = c:POL
+			}
+		}
+	}
+}
+
+EPR = {
+	dynamic_country_name = {
+		name = dyn_c_epr_polish
+		adjective = dyn_c_epr_polish_adj
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {			
+				is_subject_of = c:POL
+			}
+		}
+	}
 }
