@@ -29,4 +29,6 @@
  dyn_c_wua_polish_adj:0 "Ruthenian"
  dyn_c_wua_austrian:0 "East Galicia"
  dyn_c_wua_austrian_adj:0 "Eastern Galician"
+ dyn_c_pml_prussian:0 "West Prussia"
+ dyn_c_pml_prussian_adj "West Prussian"
  
