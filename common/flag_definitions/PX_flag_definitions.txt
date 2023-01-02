@@ -60,6 +60,8 @@ POL = { # Poland
 	}		
 }
 
+### Baltics ###
+
 COU = { # Courland
 	flag_definition = {
 		coa = COU	
@@ -73,7 +75,6 @@ COU = { # Courland
 		}
 	}
 } 
-
 LIV = { # Livonia
 	flag_definition = {
 		coa = LIV		
@@ -103,7 +104,6 @@ LIV = { # Livonia
 		}
 	}
 } 
-
 EST = { # Estonia
 	flag_definition = {
 		coa = EST
@@ -133,6 +133,8 @@ EST = { # Estonia
 	}	
 }
 
+### Ukraine ###
+
 WUA = { # Western Ukraine (uses ukrainian flag[may change later])
 	flag_definition = {
 		coa = UKR 
@@ -158,6 +160,8 @@ WUA = { # Western Ukraine (uses ukrainian flag[may change later])
 		}
 	}	
 }
+
+### Prussia ###
 
 POZ = {
 	flag_definition = {
@@ -193,20 +197,37 @@ SLS = {
 		}
 	}
 }
-
 PML = {
 	flag_definition = {
-		coa = SLS 
-		subject_canton = SLS
+		coa = PML 
+		subject_canton = PML
 		allow_overlord_canton = yes
-		coa_with_overlord_canton = SLS_subject		
+		coa_with_overlord_canton = PML_subject		
 		priority = 1
 	}
 	flag_definition = {
-		coa = SLS_sub_pru		
+		coa = PML_sub_pru		
 		priority = 50
 		trigger = {
 			coa_def_prussian_ensign_trigger = yes
+		}
+	}
+}
+EPR = {
+	flag_definition = {
+		coa = EPR 
+		subject_canton = EPR
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = EPR_subject		
+		priority = 1
+	}
+	flag_definition = {
+		coa = EPR_sub_pol		
+		priority = 50
+		trigger = {
+			exists = c:POL
+			c:POL = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
 		}
 	}
 }

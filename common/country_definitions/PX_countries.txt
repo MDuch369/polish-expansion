@@ -1,4 +1,6 @@
-﻿COU = {
+﻿### Baltics ###
+
+COU = {
 	# Courland
 	color = { 190 65 245 }
 	country_type = recognized
@@ -16,6 +18,8 @@ LIV = {
 	capital = STATE_LATVIA
 }
 
+### Ukraine ###
+
 WUA = { # Western Ukraine
 	color = { 50 100 150 }
 	country_type = recognized
@@ -27,6 +31,42 @@ WUA = { # Western Ukraine
 	}
 	capital = STATE_EAST_GALICIA
 }
+CAR = { # Carpathian ruthenia
+	color = { 200 100 150 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { 
+		ukrainian
+		rusyn
+	}
+	capital = STATE_SUBCARPATHIA
+}
+HET = { # Hetmanate
+	color = { 110 80 115 }
+	country_type = recognized
+	tier = principality
+	
+	cultures = { 
+		ukrainian
+	}
+	capital = STATE_KIEV
+}
+
+ZAP = { # Zaporizhian Sich
+	color = { 255 0 100 }
+	country_type = recognized
+	tier = principality
+	
+	cultures = { 
+		ukrainian
+	}
+	capital = STATE_ZAPORIZHZHIA
+}
+
+### Prussia ###
 
 POZ = { # Poznań
 	color = { 150 90 110 }
@@ -75,41 +115,20 @@ PML = { # Pomerelia
 	tier = principality
 	cultures = { 
 		polish
+		north_german
 	}
 	capital = STATE_WEST_PRUSSIA
 }
 
-CAR = { # Carpathian ruthenia
-	color = { 200 100 150 }
+EPR = {
+	color = { 110 120 140 }
 	
 	country_type = recognized
 
 	tier = principality
-	
 	cultures = { 
-		ukrainian
-		rusyn
+		polish
+		north_german
 	}
-	capital = STATE_SUBCARPATHIA
-}
-HET = { # Hetmanate
-	color = { 110 80 115 }
-	country_type = recognized
-	tier = principality
-	
-	cultures = { 
-		ukrainian
-	}
-	capital = STATE_KIEV
-}
-
-ZAP = { # Zaporizhian Sich
-	color = { 255 0 100 }
-	country_type = recognized
-	tier = principality
-	
-	cultures = { 
-		ukrainian
-	}
-	capital = STATE_ZAPORIZHZHIA
+	capital = STATE_EAST_PRUSSIA
 }

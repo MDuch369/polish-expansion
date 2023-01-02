@@ -157,7 +157,39 @@ CAR ={
 	}
 }
 
+ZAP = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_archangel_michael_with_dragon.dds"
+		# instance = { scale = { 0.45 0.45} }		
+	}
+}
+
+HET = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	textured_emblem = {
+		texture = "te_cossack_with_musket_02.dds"
+		# instance = { scale = { 0.45 0.45} }		
+	}
+}
+
 ### Prussia ###
+
+POM_sub_pol = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_griffin.dds"
+		color1 = "red"
+		color2 = "red"
+		color3 = color1
+	}
+}
 
 POZ = {
 	pattern = "pattern_solid.tga"
@@ -255,22 +287,23 @@ PML_sub_pru = {
 	}
 }
 
-ZAP = {
+EPR = {
 	pattern = "pattern_solid.tga"
-	color1 = "red"
+	color1 = "black"
 
-	textured_emblem = {
-		texture = "te_archangel_michael_with_dragon.dds"
-		# instance = { scale = { 0.45 0.45} }		
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "white"
 	}
 }
-
-HET = {
+EPR_sub_pol = {
 	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
+	color1 = "white"
 
-	textured_emblem = {
-		texture = "te_cossack_with_musket_02.dds"
-		# instance = { scale = { 0.45 0.45} }		
+	colored_emblem = {
+		texture = "ce_eagle.dds"
+		color1 = "black"
+		color2 = "ywllow"
+		color3 = "white"
 	}
 }
