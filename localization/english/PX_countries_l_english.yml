@@ -21,6 +21,8 @@
  ZAP_ADJ:0 "Zaporizhian"
  EPR:0 "East Prussia"
  EPR_ADJ:0 "East Prussian"
+ NEM:0 "Neumark"
+ NEM_ADJ:0 "Neumark"
 
 ### dynamic names ###
 
