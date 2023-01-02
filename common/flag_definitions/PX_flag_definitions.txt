@@ -137,10 +137,7 @@ EST = { # Estonia
 
 WUA = { # Western Ukraine (uses ukrainian flag[may change later])
 	flag_definition = {
-		coa = UKR 
-		subject_canton = UKR
-		allow_overlord_canton = yes
-		coa_with_overlord_canton = UKR_subject		
+		coa = UKR 		
 		priority = 1
 	}	
 	flag_definition = {
@@ -166,9 +163,6 @@ WUA = { # Western Ukraine (uses ukrainian flag[may change later])
 POZ = {
 	flag_definition = {
 		coa = POZ 
-		subject_canton = POZ
-		allow_overlord_canton = yes
-		coa_with_overlord_canton = POZ_subject		
 		priority = 1
 	}
 	flag_definition = {
@@ -196,10 +190,7 @@ SLS = {
 }
 PML = {
 	flag_definition = {
-		coa = PML 
-		# subject_canton = PML
-		# allow_overlord_canton = yes
-		# coa_with_overlord_canton = PML_subject		
+		coa = PML 	
 		priority = 1
 	}
 	flag_definition = {
@@ -208,23 +199,20 @@ PML = {
 		trigger = {
 			coa_def_prussian_ensign_trigger = yes
 		}
-		flag_definition = {
-			coa = PML_sub_pol		
-			priority = 50
-			trigger = {
-				exists = c:POL
-				c:POL = { save_temporary_scope_as = custom_overlord }
-				coa_def_ensign_trigger = yes
-			}
+	}
+	flag_definition = {
+		coa = PML_sub_pol		
+		priority = 50
+		trigger = {
+			exists = c:POL
+			c:POL = { save_temporary_scope_as = custom_overlord }
+			coa_def_ensign_trigger = yes
 		}
 	}
 }
 EPR = {
 	flag_definition = {
-		coa = EPR 
-		subject_canton = EPR
-		allow_overlord_canton = yes
-		coa_with_overlord_canton = EPR_subject		
+		coa = EPR 		
 		priority = 1
 	}
 	flag_definition = {
