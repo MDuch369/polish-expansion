@@ -2230,7 +2230,11 @@ KLM = {
 	ai_will_do = { always = no }
 }
 
+#######################
 ### MODED COUNTRIES ###
+#######################
+
+### Baltics ###
 
 COU = {
 	states = { 
@@ -2252,18 +2256,42 @@ LIV = {
 	ai_will_do = { always = no }
 }
 
-WUA = { #Western Ukraine
+### Ukraine ###
 
+WUA = { #Western Ukraine
 	states = {
 		STATE_EAST_GALICIA
 		STATE_SUBCARPATHIA
 	}
 	ai_will_do = { always = NO }
-
+}
+HET = { #Hetmanate
+	states = {
+		STATE_KIEV
+		STATE_ZHYTOMYR
+		STATE_ZAPORIZHZHIA
+		STATE_PODOLIA
+		STATE_STARODUB
+	}
+	ai_will_do = { always = NO }
+}
+ZAP = { # Zaporizhian Sich
+	states = {
+		STATE_ZAPORIZHZHIA
+	}
+	ai_will_do = { always = NO }
 	# possible = {
 	# 	has_technology_researched = nationalism
 	# }
 }
+CAR = { # Carpathian ruthenia
+	
+	states = { 
+		STATE_SUBCARPATHIA
+	}
+}
+
+### Prussia ###
 
 POZ = { # Poznań
 	states = {
@@ -2271,7 +2299,6 @@ POZ = { # Poznań
 	}	
 	ai_will_do = { always = NO }
 }
-
 SLS = { # Silesia
 	states = {
 		STATE_SILESIA
@@ -2298,10 +2325,16 @@ PML = { # Pomerelia
 	}	
 	ai_will_do = { always = NO }
 }
-
-CAR = { # Carpathian ruthenia
-	
-	states = { 
-		STATE_SUBCARPATHIA
+EPR = { # East Prussia
+	states = {
+		STATE_EAST_PRUSSIA
+		STATE_MASURIA
 	}
+	ai_will_do = { always = NO }
+}
+NEM = { # Neumark
+	states = {
+		STATE_EAST_BRANDENBURG
+	}
+	ai_will_do = { always = NO }
 }

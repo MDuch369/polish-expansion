@@ -1124,7 +1124,7 @@ STATE_POMERANIA = {
 }
 
 STATE_WEST_POMERANIA = {
-    id = 1007
+    id = 807
     subsistence_building = "building_subsistence_farms"
     provinces = { "x567452" "xA04121" "xE1A03A" }
     traits = { "state_trait_oder_river" }
@@ -1293,7 +1293,7 @@ STATE_BRANDENBURG = {
     }
 }
 STATE_EAST_BRANDENBURG = {
-    id = 1008
+    id = 805
     subsistence_building = "building_subsistence_farms"
     provinces = { "x0180A0" "x28CEC2" "x3E3572" "x514C51" "x60BF20" "xB90BFF" "xF77289" }
     traits = { "state_trait_oder_river" }

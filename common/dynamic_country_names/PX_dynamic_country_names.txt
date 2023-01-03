@@ -70,3 +70,64 @@ WUA = {
 		}
 	}
 }
+
+PML = {
+	dynamic_country_name = {
+		name = dyn_c_pml_prussian
+		adjective = dyn_c_pml_prussian_adj
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {			
+				is_subject_of = c:PRU
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_pml_polish
+		adjective = dyn_c_pml_polish_adj
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {			
+				is_subject_of = c:POL
+			}
+		}
+	}
+}
+
+EPR = {
+	dynamic_country_name = {
+		name = dyn_c_epr_polish
+		adjective = dyn_c_epr_polish_adj
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {			
+				is_subject_of = c:POL
+			}
+		}
+	}
+}
+
+NEM = {
+	dynamic_country_name = {
+		name = dyn_c_nem_polish
+		adjective = dyn_c_nem_polish_adj
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {			
+				is_subject_of = c:POL
+			}
+		}
+	}
+}
