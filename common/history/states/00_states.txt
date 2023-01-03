@@ -6633,7 +6633,7 @@ STATES = {
 	s:STATE_EAST_GALICIA = {
 		create_state = {
 			country = c:AUS
-			owned_provinces = { xA2805F x9D8087 xCDD223 x11A021 xCAE5B0 x8F9F20 xE369C4 xA3CF78 xB021A0 x053163 x4D0305 xC1B262 xEFE270 x489C42 x7EDD9E x53932F xC58E1C xD0E061 }
+			owned_provinces = { xA2805F x9D8087 xCDD223 x11A021 xCAE5B0 x8F9F20 xE369C4 xA3CF78 xB021A0 x053163 x4D0305 xC1B262 xEFE270 x489C42 x7EDD9E x53932F xC58E1C }
 		}
 		
 		add_homeland = polish
@@ -6660,7 +6660,7 @@ STATES = {
 	s:STATE_SUBCARPATHIA = {
 		create_state = {
 			country = c:AUS
-			owned_provinces = { x359378 x69BAC7 xA0531B xC85CD0 }
+			owned_provinces = { x359378 x69BAC7 xA0531B xC85CD0 xD0E061}
 		}
 		
 		add_homeland = ukrainian
