@@ -1,8 +1,17 @@
 ﻿PLB = {
-	use_culture_states = yes
+	# use_culture_states = yes
+	states = {
+		STATE_SAXONY
+		STATE_BRANDENBURG
+		STATE_MECKLENBURG
+		STATE_WEST_POMERANIA
+	}
 
 	required_states_fraction = 0.75	
-	
+	possible = {
+		has_technology_researched = nationalism
+	}
+
 	ai_will_do = { always = no }
 }
 
@@ -20,6 +29,9 @@ UKR = {
 		# STATE_SLOBODA
 		# STATE_LUHANSK
 		# STATE_CHERSON
+	}
+	possible = {
+		has_technology_researched = nationalism
 	}
 
 	ai_will_do = { always = yes }
