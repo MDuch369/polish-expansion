@@ -1093,11 +1093,38 @@
 		region_state:PRU = {
 			create_pop = {
 				culture = north_german
-				size = 1071609
+				size = 779352
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 6050
+				size = 4400
+			}
+		}
+	}
+	s:STATE_LUSATIA = {
+		region_state:PRU = {
+			create_pop = {
+				culture = north_german
+				size = 707460
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 3715
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 3099
+			}
+			create_pop = {
+				# rough estimate of 200k Sorbs in 1836
+				culture = sorb
+				size = 150106
+			}
+			create_pop = {
+				culture = sorb
+				religion = protestant
+				size = 50106
 			}
 		}
 	}
@@ -1305,26 +1332,16 @@
 		region_state:SAX = {
 			create_pop = {
 				culture = north_german
-				size = 1453212
+				size = 1038009
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 13004
+				size = 9289
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 5072
-			}
-			create_pop = {
-				# rough estimate of 200k Sorbs in 1836
-				culture = sorb
-				size = 150106
-			}
-			create_pop = {
-				culture = sorb
-				religion = protestant
-				size = 50106
+				size = 3623
 			}
 		}
 		region_state:MEI = {
