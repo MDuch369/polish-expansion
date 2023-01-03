@@ -6920,8 +6920,13 @@ STATES = {
 	s:STATE_LUSATIA = {
 		create_state = {
 			country = c:PRU
-			owned_provinces = { x614121 xDF4020 x169073 x9B9076 x76EF4E }
+			owned_provinces = { x614121 xDF4020 x9B9076 x76EF4E }
 		}
+		create_state = {
+			country = c:SAX
+			owned_provinces = { x169073 }
+		}
+		add_homeland = sorb
 		add_homeland = north_german
 	}
 	s:STATE_EAST_BRANDENBURG = {
@@ -6999,7 +7004,7 @@ STATES = {
 	s:STATE_SAXONY = {
 		create_state = {
 			country = c:SAX
-			owned_provinces = { x795368 x917939 xAFDFBF x43CE26 x31E0C0 x614121}
+			owned_provinces = { x795368 x917939 xAFDFBF x43CE26 x31E0C0 }
 		}
 		create_state = {
 			country = c:MEI
