@@ -1105,7 +1105,27 @@
 		region_state:PRU = {
 			create_pop = {
 				culture = north_german
-				size = 707460
+				size = 499859
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 2375
+			}
+			create_pop = {
+				# rough estimate of 200k Sorbs in 1836
+				culture = sorb
+				size = 120106
+			}
+			create_pop = {
+				culture = sorb
+				religion = protestant
+				size = 40106
+			}
+		}
+		region_state:SAX = {
+			create_pop = {
+				culture = north_german
+				size = 207601
 			}
 			create_pop = {
 				culture = north_german
@@ -1114,17 +1134,17 @@
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 3099
+				size = 724
 			}
 			create_pop = {
 				# rough estimate of 200k Sorbs in 1836
 				culture = sorb
-				size = 150106
+				size = 30000
 			}
 			create_pop = {
 				culture = sorb
 				religion = protestant
-				size = 50106
+				size = 10000
 			}
 		}
 	}
