@@ -1288,7 +1288,6 @@ STATE_BRANDENBURG = {
     arable_land = 49
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 30
         bg_logging = 4
     }
 }
@@ -1301,11 +1300,11 @@ STATE_LUSATIA= {
     farm = "x83B1A8"
     mine = "xDF4020"
     wood = "x9B9076"
-    arable_land = 49
+    arable_land = 34
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 30
-        bg_logging = 4
+        bg_coal_mining = 43
+        bg_sulfur_mining = 13
     }
 }
 STATE_EAST_BRANDENBURG = {
@@ -1464,12 +1463,12 @@ STATE_SAXONY = {
     farm = "xD0C021"
     mine = "x917939"
     wood = "x31E0C0"
-    arable_land = 128
+    arable_land = 107
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 80
+        bg_coal_mining = 67
         bg_iron_mining = 30
-        bg_sulfur_mining = 80
+        bg_sulfur_mining = 67
         bg_logging = 6
     }
 }
