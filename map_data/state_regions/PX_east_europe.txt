@@ -582,3 +582,37 @@ STATE_EAST_GALICIA = {
         undiscovered_amount = 60
     }
 }
+
+STATE_BESSARABIA = {
+    id = 174
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x622837 x1E1DEF x712161 xFC9EFE x8955DF xFDE796 x79D62E x8ACA9B x53D7E0 xE7274A }
+    city = "xFC9EFE"
+    port = "x23621B"
+    farm = "x6BF7B8"
+    mine = "x79D62E"
+    wood = "xE7274A"
+    arable_land = 66
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
+    capped_resources = {
+        bg_logging = 6
+        bg_fishing = 9
+    }
+}
+
+STATE_BUDJAK = {
+    id = 819
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x5F2259 x23621B xB0E0A0 x6BF7B8 }
+    city = "xFC9EFE"
+    port = "x23621B"
+    farm = "x6BF7B8"
+    mine = "x79D62E"
+    wood = "xE7274A"
+    arable_land = 66
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
+    capped_resources = {
+        bg_logging = 6
+        bg_fishing = 9
+    }
+}
