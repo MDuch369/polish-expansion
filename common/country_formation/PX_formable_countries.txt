@@ -1,9 +1,10 @@
 ﻿PLB = {
 	# use_culture_states = yes
 	states = {
+		STATE_LUSATIA
+		STATE_MECKLENBURG
 		STATE_SAXONY
 		STATE_BRANDENBURG
-		STATE_MECKLENBURG
 		STATE_WEST_POMERANIA
 	}
 
