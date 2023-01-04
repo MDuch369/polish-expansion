@@ -587,6 +587,10 @@
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
+		}
+	}
+	s:STATE_AZOV={
+		region_state:RUS={
 			create_building={
 				building="building_shipyards"
 				level=2
@@ -1359,7 +1363,7 @@
 			}
 		}
 	}
-	s:STATE_BESSARABIA={
+	s:STATE_BUDJAK={
 		region_state:RUS={
 			create_building={
 				building="building_fishing_wharf"
