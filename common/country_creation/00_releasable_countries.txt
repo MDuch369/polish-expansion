@@ -266,7 +266,10 @@ TRS = {
 }
 
 CRI = {
-	states = { STATE_CRIMEA }
+	states = { 
+		STATE_CRIMEA
+		STATE_TAURIDA
+	 }
 
 	ai_will_do = { always = no }
 }
