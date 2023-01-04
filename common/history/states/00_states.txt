@@ -7024,7 +7024,7 @@ STATES = {
 		}
 				
 		add_homeland = north_german
-		add_homeland = sorb
+		# add_homeland = sorb
 	}
 	s:STATE_BRUNSWICK = {	
 		create_state = {
