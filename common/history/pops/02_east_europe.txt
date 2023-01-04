@@ -3,7 +3,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 858808
+				size = 1083087
 			}
 			create_pop = {
 				culture = estonian
@@ -24,7 +24,7 @@
 			create_pop = {
 				culture = ugrian
 				religion = orthodox
-				size = 8004
+				size = 22704
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -304,7 +304,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 1281596
+				size = 544678
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -313,7 +313,7 @@
 			create_pop = {
 				culture = ugrian
 				religion = orthodox
-				size = 84000
+				size = 35700
 			}
 		}
 	}
@@ -453,7 +453,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 802804
+				size = 1315442
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -462,7 +462,7 @@
 			create_pop = {
 				culture = ugrian
 				religion = orthodox
-				size = 20000
+				size = 53600
 			}
 		}
 	}
