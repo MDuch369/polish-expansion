@@ -17,4 +17,8 @@
  STATE_LIVONIA:0 "Livonia"
  STATE_SUBCARPATHIA:0 "Subcarpathia"
  STATE_LUSATIA:0 "Lusatia"
+ STATE_BUDJAK:0 "budjak"
+ STATE_CHERNIVTSI:0 "Chernivtsi"
+ STATE_TAURIDA:0 "Taurida"
+ STATE_AZOV:0 "Azov"
  
