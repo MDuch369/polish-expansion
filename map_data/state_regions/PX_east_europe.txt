@@ -476,7 +476,7 @@ STATE_ZAPORIZHZHIA = {
 STATE_CHERSON = {
     id = 146
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x000AE0" "x135B1E" "x3E5AF0" "x3E66A1" "x421B54" "x716121" "x71E021" "x89CE7C" "x8A09FD" "xA669E7" "xB02161" "xB5123B" "xD7E3C1" "xFDD2CF" }
+    provinces = { x3E5AF0 x3E66A1 x421B54 x716121 x71E021 x89CE7C xA669E7 xB02161 xB5123B xD7E3C1 xFDD2CF }
     traits = { "state_trait_black_soil" "state_trait_dnieper_river" }
     city = "x89CE7C"
     port = "x716121"
@@ -495,7 +495,7 @@ STATE_CHERSON = {
 STATE_LUHANSK = {
     id = 143
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x35FCF1" "x386376" "x4202ED" "x500F88" "x580D2A" "x58331B" "x5AB195" "x7020DF" "x7161E0" "x87109C" "x9A1118" "xA1BAF7" "xAD4F1C" "xB06935" "xB69E4B" "xC262E0" "xE6C06A" "xF06161" "xF0E061" "x637D8D" }
+    provinces = { x386376 x500F88 x580D2A x5AB195 x7020DF x7161E0 x87109C x9A1118 xAD4F1C xB06935 xB69E4B xC262E0 xF0E061 x637D8D }
     traits = { "state_trait_black_soil" "state_trait_dnieper_river" }
     city = "x35FCF1"
     port = "xF0E061"
@@ -529,6 +529,25 @@ STATE_SLOBODA = {
         bg_iron_mining = 13
         bg_logging = 7
     }
+}
+STATE_TAURIDA = {
+    id = 821
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x000AE0 x4202ED x8A09FD x58331B x135B1E xF06161 xA1BAF7 xE6C06A x35FCF1 }
+    traits = { "state_trait_black_soil" "state_trait_dnieper_river" }
+    city = "x89CE7C"
+    port = "x716121"
+    farm = "xB02161"
+    mine = "x9E24DE"
+    wood = "xA669E7"
+    arable_land = 31
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 42
+        bg_logging = 5
+        bg_fishing = 12
+    }
+    naval_exit_id = 3036
 }
 
 STATE_EAST_SLOVAKIA = {

@@ -6502,10 +6502,20 @@ STATES = {
 		add_homeland = tatar
 		add_homeland = ukrainian
 	}
+	s:STATE_TAURIDA = {
+		create_state = {
+			country = c:RUS
+			owned_provinces = { x000AE0 x4202ED x8A09FD x58331B x135B1E xF06161 xA1BAF7 xE6C06A x35FCF1 }
+		}
+		
+		add_homeland = russian
+		add_homeland = tatar
+		add_homeland = ukrainian
+	}
 	s:STATE_LUHANSK = {
 		create_state = {
 			country = c:RUS
-			owned_provinces = { x35FCF1 x386376 x4202ED x500F88 x580D2A x58331B x5AB195 x7020DF x7161E0 x87109C x9A1118 xA1BAF7 xAD4F1C xB06935 xB69E4B xC262E0 xE6C06A xF06161 xF0E061 x637D8D }
+			owned_provinces = {  x386376 x500F88 x580D2A x5AB195 x7020DF x7161E0 x87109C x9A1118 xAD4F1C xB06935 xB69E4B xC262E0 xF0E061 x637D8D }
 		}
 		
 		add_homeland = ukrainian
@@ -6531,7 +6541,7 @@ STATES = {
 	s:STATE_CHERSON = {
 		create_state = {
 			country = c:RUS
-			owned_provinces = { x000AE0 x135B1E x3E5AF0 x3E66A1 x421B54 x716121 x71E021 x89CE7C x8A09FD xA669E7 xB02161 xB5123B xD7E3C1 xFDD2CF }
+			owned_provinces = { x3E5AF0 x3E66A1 x421B54 x716121 x71E021 x89CE7C xA669E7 xB02161 xB5123B xD7E3C1 xFDD2CF }
 		}
 		
 		add_homeland = ukrainian
