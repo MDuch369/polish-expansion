@@ -3165,7 +3165,7 @@
 		region_state:PRU={
 			create_building={
 				building="building_government_administration"
-				level=13
+				level=12
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
@@ -3213,16 +3213,52 @@
 			}
 		}
 	}
-	# s:STATE_EAST_BRANDENBURG={
-	# 	region_state:PRU={
-	# 		create_building={
-	# 			building="building_government_administration"
-	# 			level=4
-	# 			reserves=1
-	# 			activate_production_methods={ "pm_vertical_filing_cabinets" }
-	# 		}						
-	# 	}
-	# }
+	s:STATE_LUSATIA={
+		region_state:PRU={
+			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
+			}
+			create_building={
+				building="building_coal_mine"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_coal_mine" }
+			}
+		}
+		region_state:SAX={
+			create_building={
+				building="building_coal_mine"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_coal_mine" }
+			}
+			create_building={
+				building="building_rye_farm"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+		}
+	}
+	s:STATE_EAST_BRANDENBURG={
+		region_state:PRU={
+			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
+			}						
+		}
+	}
 	s:STATE_SCHLESWIG_HOLSTEIN={
 		region_state:HOL={
 			create_building={
@@ -3633,7 +3669,7 @@
 			}
 			create_building={
 				building="building_coal_mine"
-				level=3
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_coal_mine" }
 			}
@@ -3644,14 +3680,8 @@
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_sulfur_mine" }
 			}
 			create_building={
-				building="building_rye_farm"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
-			}
-			create_building={
 				building="building_livestock_ranch"
-				level=5
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
