@@ -3,12 +3,14 @@
 	states = {
 		STATE_LUSATIA
 		STATE_MECKLENBURG
-		STATE_SAXONY
-		STATE_BRANDENBURG
 		STATE_WEST_POMERANIA
+		STATE_BRANDENBURG
+		# STATE_EAST_BRANDENBURG
+		STATE_SAXONY
+		STATE_ANHALT
 	}
 
-	required_states_fraction = 0.75	
+	# required_states_fraction = 0.75	
 	possible = {
 		has_technology_researched = nationalism
 	}
