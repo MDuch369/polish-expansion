@@ -389,10 +389,10 @@ STATE_INGRIA = {
     farm = "xDED975"
     mine = "xB64167"
     wood = "xA981B3"
-    arable_land = 50
+    arable_land = 64
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 11
+        bg_logging = 14
         bg_fishing = 5
     }
     naval_exit_id = 3000
@@ -406,10 +406,10 @@ STATE_NOVGOROD = {
     farm = "x065E68"
     mine = "xAD3522"
     wood = "xABC7C5"
-    arable_land = 56
+    arable_land = 91
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 17
+        bg_logging = 24
     }
 }
 
@@ -452,10 +452,10 @@ STATE_SMOLENSK = {
     farm = "x205800"
     mine = "xC0DF60"
     wood = "x6859CA"
-    arable_land = 78
+    arable_land = 30
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 20
+        bg_logging = 10
     }
 }
 STATE_ZAPORIZHZHIA = {
