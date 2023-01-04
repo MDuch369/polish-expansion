@@ -1024,6 +1024,7 @@ DON = {
 	states = {
 		STATE_ROSTOV
 		STATE_KUBAN
+		SSTAE_AZOV
 	}
 	ai_will_do = { always = no }
 }
@@ -2265,6 +2266,7 @@ WUA = { #Western Ukraine
 	states = {
 		STATE_EAST_GALICIA
 		STATE_SUBCARPATHIA
+		STATE_CHERNIVTSI
 	}
 	ai_will_do = { always = NO }
 }
