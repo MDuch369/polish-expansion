@@ -1024,7 +1024,7 @@ DON = {
 	states = {
 		STATE_ROSTOV
 		STATE_KUBAN
-		SSTAE_AZOV
+		STATE_AZOV
 	}
 	ai_will_do = { always = no }
 }
