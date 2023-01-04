@@ -40,5 +40,4 @@
  dyn_c_epr_polish:0 "Ducal Prussia"
  dyn_c_epr_polish_adj "Ducal Prussian"
  dyn_c_nem_polish:0 "Lubusz Land"
- dyn_c_nem_polish_adj "Lubusian" # ???
- 
+ dyn_c_nem_polish_adj:0 "Lubusian" # ???
