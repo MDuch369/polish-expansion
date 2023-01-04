@@ -599,7 +599,6 @@ STATE_BESSARABIA = {
         bg_fishing = 9
     }
 }
-
 STATE_BUDJAK = {
     id = 819
     subsistence_building = "building_subsistence_farms"
@@ -614,5 +613,43 @@ STATE_BUDJAK = {
     capped_resources = {
         bg_logging = 6
         bg_fishing = 9
+    }
+}
+STATE_MOLDAVIA = {
+    id = 172
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x00A7F4" "x067DF0" "x0983EE" "x0D8A56" "x30E0A0" "x35CE84" "x3CE97E" "x556DE7" "x56839F" "x734EFF" "x80D8F3" "x946A66" "xB0A0E0" "xEF2060" "xF40045" "xFF2F40" "xFFCCDA" }
+    city = "x946A66"
+    farm = "x30E0A0"
+    mine = "xFFCCDA"
+    wood = "x0D8A56"
+    arable_land = 130
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
+    capped_resources = {
+        bg_iron_mining = 30
+        bg_logging = 14
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 30
+    }
+}
+STATE_CHERNIVTSI = {
+    id = 820
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x31A0A0" "x7E6263" }
+    city = "x946A66"
+    farm = "x30E0A0"
+    mine = "xFFCCDA"
+    wood = "x0D8A56"
+    arable_land = 130
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
+    capped_resources = {
+        bg_iron_mining = 30
+        bg_logging = 14
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 30
     }
 }
