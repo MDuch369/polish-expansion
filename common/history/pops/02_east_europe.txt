@@ -1399,31 +1399,27 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = polish
-				size = 20008
+				size = 2008
 			}
 			create_pop = {
 				culture = romanian
-				size = 144000
+				size = 100400
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 20004
+				size = 12002
 			}
 			create_pop = {
 				culture = hungarian
-				size = 11996
+				size = 10000
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 144400
+				size = 4400
 			}
 			create_pop = {
 				culture = south_german
-				size = 32000
-			}
-			create_pop = {
-				culture = armenian
-				size = 2000
+				size = 19200
 			}
 		}
 		region_state:MOL = {
@@ -1435,6 +1431,38 @@
 				pop_type = slaves
 				culture = romanian
 				size = 10000
+			}
+		}
+	}
+	s:STATE_CHERNIVTSI = {
+		region_state:AUS = {
+			create_pop = {
+				culture = polish
+				size = 18000
+			}
+			create_pop = {
+				culture = romanian
+				size = 43600
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 8002
+			}
+			create_pop = {
+				culture = hungarian
+				size = 1996
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 140000
+			}
+			create_pop = {
+				culture = south_german
+				size = 12800
+			}
+			create_pop = {
+				culture = armenian
+				size = 2000
 			}
 		}
 	}
@@ -1455,24 +1483,49 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = romanian
-				size = 808396
+				size = 577426
 			}
 			create_pop = {
 				culture = bulgarian
-				size = 12000
+				size = 6000
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 95996
+				size = 68569
 			}
 			create_pop = {
 				culture = turkish
 				religion = orthodox
-				size = 32000
+				size = 27000
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 40000
+				size = 5000
+			}
+		}
+	}
+	s:STATE_BUDJAK = {
+		region_state:RUS = {
+			create_pop = {
+				culture = romanian
+				size = 230970
+			}
+			create_pop = {
+				culture = bulgarian
+				size = 6000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 27427
+			}
+			create_pop = {
+				culture = turkish
+				religion = orthodox
+				size = 5000
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 35000
 			}
 		}
 	}
