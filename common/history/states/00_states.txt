@@ -6608,6 +6608,7 @@ STATES = {
 		
 		add_homeland = russian
 		add_homeland = ukrainian
+		add_homeland = byelorussian
 	}
 	s:STATE_SMOLENSK = {
 		create_state = {
@@ -6966,6 +6967,7 @@ STATES = {
 		}
 		add_homeland = sorb
 		add_homeland = north_german
+		add_homeland = south_german
 	}
 	s:STATE_EAST_BRANDENBURG = {
 		create_state = {
