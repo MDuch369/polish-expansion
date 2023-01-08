@@ -1990,13 +1990,6 @@ YUE = {
 	ai_will_do = { always = no }
 }
 
-SRB = {
-	states = {
-		STATE_SAXONY
-	}
-	ai_will_do = { always = no }
-}
-
 BLH = {
 	states = {
 		STATE_BALUCHISTAN
