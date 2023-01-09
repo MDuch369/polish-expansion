@@ -240,3 +240,16 @@ POM = {
 		}
 	}
 }
+PLB = {
+	flag_definition = {	
+		coa = PLB
+		priority = 1
+	}
+	flag_definition = {
+		coa = PLB_republic		
+		priority = 50
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
