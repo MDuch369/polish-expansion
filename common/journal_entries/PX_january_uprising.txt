@@ -1,11 +1,9 @@
  
 je_january_urpising = {
-	# is_shown_when_inactive = {
-	# 	c:RUS = root
-	# }
-	# possible = {
-	# 	year > 1850
-	# }
+
+	possible = {
+		year > 1850
+	}
 
 	immediate ={
 	}
