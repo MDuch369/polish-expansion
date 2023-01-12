@@ -39,7 +39,7 @@
  HUB_NAME_STATE_SUBCARPATHIA_wood:0 "Khust"
  HUB_NAME_STATE_LUHANSK_city:0 "Luhansk"
  HUB_NAME_STATE_LUHANSK_farm:0 "Bakhmut"
-#  HUB_NAME_STATE_LUHANSK_wood:0 ""
+ HUB_NAME_STATE_LUHANSK_wood:0 "LUHANSK_WOOD"
  HUB_NAME_STATE_CHERNIVTSI_city:0 "Chernivtsi"
 #  HUB_NAME_STATE_CHERNIVTSI_mine:0 ""
  HUB_NAME_STATE_CHERNIVTSI_farm:0 "Storozhynets"
@@ -69,11 +69,13 @@
  HUB_NAME_STATE_TAURIDA_farm:0 "Kakhovka"
  HUB_NAME_STATE_TAURIDA_port:0 "Berdiansk"
  HUB_NAME_STATE_ZAPORIZHZHIA_city:0 "Aleksandrovsk"
-#  HUB_NAME_STATE_ZAPORIZHZHIA_farm:0 ""
-#  HUB_NAME_STATE_ZAPORIZHZHIA_:0 "Yekaterinoslav"
+ HUB_NAME_STATE_ZAPORIZHZHIA_farm:0 "Yelysavethrad"
+ HUB_NAME_STATE_ZAPORIZHZHIA_mine:0 "Kryvyi Rih"
+ HUB_NAME_STATE_CHERSON_mine:0 "Olviopol"
+ HUB_NAME_STATE_CHERSON_wood:0 "Tiraspol"
 
   # Russia
-#  HUB_NAME_STATE_BESSARABIA_farm:0 ""
+ HUB_NAME_STATE_BESSARABIA_farm:0 "Bender"
  HUB_NAME_STATE_BREST_farm:0 "Navahrudak"
  HUB_NAME_STATE_BIALYSTOK_city:0 "Białystok"
  HUB_NAME_STATE_BIALYSTOK_farm:0 "Sokółka"
@@ -81,6 +83,11 @@
  HUB_NAME_STATE_STARODUB_city:0 "Starodub"
  HUB_NAME_STATE_STARODUB_farm:0 "Novozibkiv"
  HUB_NAME_STATE_STARODUB_wood:0 "Surazh"
+ HUB_NAME_STATE_ROSTOV_city:0 "Novocherkassk"
+ HUB_NAME_STATE_ROSTOV_farm:0 "Kamensk-Shakhtinsky"
+ HUB_NAME_STATE_AZOV_city:0 "Rostov"
+ HUB_NAME_STATE_AZOV_farm:0 "Taganrog"
+ HUB_NAME_STATE_AZOV_port:0 "Azov"
 
   # Prussia
  HUB_NAME_STATE_SILESIA_farm:0 "Schweidnitz"

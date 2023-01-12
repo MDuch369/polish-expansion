@@ -20,5 +20,6 @@
  STATE_BUDJAK:0 "Budjak"
  STATE_CHERNIVTSI:0 "Chernivtsi"
  STATE_TAURIDA:0 "Taurida"
- STATE_AZOV:0 "Azov"
+ STATE_AZOV:0 "Rostov"
+ STATE_ROSTOV:0 "Don"
  
