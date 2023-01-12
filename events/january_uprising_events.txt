@@ -1,0 +1,40 @@
+ 
+namespace = january
+
+# gives the "memories of independence" modifier
+january.1 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		root.country_definition = { 
+			NOT = { country_definition_has_culture = polish }
+		}
+		any_scope_state = {
+			state_region = { is_homeland = cu:polish }
+		}
+		has_game_started = yes
+	}
+
+	immediate = {
+		every_country = {
+			limit = {
+				root.country_definition = { 
+					NOT = { country_definition_has_culture = polish }
+				}
+				any_scope_state = {
+					state_region = { is_homeland = cu:polish }
+				}
+			}
+			every_scope_state = {
+				limit = {
+					state_region = { is_homeland = cu:polish }
+				}
+				add_modifier = {
+					name = memories_of_independence
+				}
+			}
+		}
+
+	}
+}
