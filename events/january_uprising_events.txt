@@ -10,9 +10,7 @@ january.1 = {
 		root.country_definition = { 
 			NOT = { country_definition_has_culture = polish }
 		}
-		any_scope_state = {
-			state_region = { is_homeland = cu:polish }
-		}
+		polish_homeland = yes
 		has_game_started = yes
 	}
 
@@ -22,9 +20,7 @@ january.1 = {
 				root.country_definition = { 
 					NOT = { country_definition_has_culture = polish }
 				}
-				any_scope_state = {
-					state_region = { is_homeland = cu:polish }
-				}
+				polish_homeland = yes
 			}
 			every_scope_state = {
 				limit = {
