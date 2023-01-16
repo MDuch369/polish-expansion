@@ -2,34 +2,228 @@
 namespace = january
 
 # gives the "memories of independence" modifier
+# january.1 = {
+# 	type = country_event
+# 	hidden = yes
+
+# 	trigger = {
+# 		root.country_definition = { 
+# 			NOT = { country_definition_has_culture = polish }
+# 		}
+# 		polish_homeland = yes
+# 		has_game_started = yes
+# 	}
+
+# 	immediate = {
+# 		every_country = {
+# 			limit = {
+# 				root.country_definition = { 
+# 					NOT = { country_definition_has_culture = polish }
+# 				}
+# 				polish_homeland = yes
+# 			}
+# 			every_scope_state = {
+# 				limit = {
+# 					state_region = { is_homeland = cu:polish }
+# 				}
+# 				add_modifier = {
+# 					name = memories_of_independence
+# 				}
+# 			}
+# 		}
+
+# 	}
+# }
+
+# land and liberty 
 january.1 = {
 	type = country_event
-	hidden = yes
+	placement = root
 
+	duration = 3
+
+	title = january.1.t
+	desc = january.1.d
+	flavor = january.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/public_figure_assassination"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	
 	trigger = {
-		root.country_definition = { 
-			NOT = { country_definition_has_culture = polish }
+		has_law = law_serfdom
+	}
+
+	# immediate = {
+	# 	polish_modifier = { $MODIFIER$ = land_and_liberty }
+	# }
+
+	option = { # Do nothing
+		name = january.2.a
+		default_option = yes
+		polish_modifier = { $MODIFIER$ = land_and_liberty }
+	}
+	
+	option = { # promise to abolish Serfdom
+		name = january.2.b
+		default_option = yes
+		polish_modifier = { $MODIFIER$ = promised_abolishing_serfdom }
+	}
+
+	# option = { # promise autonomy for Poland
+	# 	name = january.2.b
+	# 	default_option = yes
+	# 	scope:commander_with_addiction = {
+	# 		add_modifier = {
+	# 			name = modifier_commander_with_addiction
+	# 			months = normal_modifier_time
+	# 		}
+	# 	}
+	# }
+}
+# insurrection
+january.2 = {
+	type = country_event
+	placement = root
+
+	duration = 1
+
+	title = january.2.t
+	desc = january.2.d
+	flavor = january.2.f
+
+	event_image = {
+		video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/public_figure_assassination"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	
+	trigger = {
+		cu:polish = {
+			culture_secession_progress = {
+				target = c:RUS
+				value > 0.1
+			}
 		}
-		polish_homeland = yes
-		has_game_started = yes
 	}
 
 	immediate = {
-		every_country = {
-			limit = {
-				root.country_definition = { 
-					NOT = { country_definition_has_culture = polish }
-				}
-				polish_homeland = yes
+		polish_modifier = { $MODIFIER$ = insurrection }
+	}
+
+	option = { # Do nothing
+		name = january.2.a
+		default_option = yes
+	}
+
+	option = { # restore polish autonomy
+		name = january.2.b
+		create_country = {
+			tag = POL
+			origin = root
+			state = s:STATE_MAZOVIA.region_state:RUS
+			state = s:STATE_GREATER_POLAND.region_state:RUS
+			state = s:STATE_LESSER_POLAND.region_state:RUS
+			state = s:STATE_MARIJAMPOLE.region_state:RUS
+		}
+		create_diplomatic_pact = {
+			country = C:POL
+			type = personal_union
+		}
+
+	}
+
+	# option = { # promise greater involvment of Poles in government
+	# 	name = january.2.c
+		
+	# }
+}
+# insurrection spreads
+january.3 = {
+	type = country_event
+	placement = root
+
+	duration = 1
+
+	title = january.3.t
+	desc = january.3.d
+	flavor = january.3.f
+
+	event_image = {
+		video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/public_figure_assassination"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+		cu:polish = {
+			culture_secession_progress = {
+				target = c:RUS
+				value > 0.2
 			}
-			every_scope_state = {
-				limit = {
-					state_region = { is_homeland = cu:polish }
-				}
-				add_modifier = {
-					name = memories_of_independence
-				}
+		}
+	}
+
+	immediate = {
+		lithuanian_modifier = { $MODIFIER$ = insurrection_spread }
+	}
+}
+# lithuanian insurrection
+january.4 = {
+	type = country_event
+	placement = root
+
+	duration = 1
+
+	title = january.4.t
+	desc = january.4.d
+	flavor = january.4.f
+
+	event_image = {
+		video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/public_figure_assassination"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+		cu:lithuanian = {
+			culture_secession_progress = {
+				target = c:RUS
+				value > 0.1
 			}
+		}
+	}
+
+	option = { # Do nothing
+		name = january.4.a
+		default_option = yes
+	}
+
+	option = { # lithuanian autonomy
+		name = january.4.b
+		create_country = {
+			tag = LIT
+			origin = root
+			state = s:STATE_LITHUANIA.region_state:RUS
+			state = s:STATE_VILNIUS.region_state:RUS
+		}
+		create_diplomatic_pact = {
+			country = C:LIT
+			type = personal_union
 		}
 
 	}

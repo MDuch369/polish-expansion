@@ -8,9 +8,12 @@ je_january_urpising = {
 	possible = {
 		# year > 1850
 		polish_homeland = yes
+		has_technology_researched = nationalism
+		
 	}
 
 	immediate ={
+		polish_modifier = { $MODIFIER$ = longing_for_liberty }
 	}
 	
 	on_monthly_pulse = {}

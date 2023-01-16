@@ -2,5 +2,30 @@
 memories_of_independence = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
 	state_radicals_from_discrimination_mult = 0.50
-	
+}
+
+longing_for_liberty = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	state_radicals_from_discrimination_mult = 0.50
+}
+
+land_and_liberty = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	state_radicals_from_sol_change_mult = 0.50
+}
+
+promised_abolishing_serfdom = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	state_radicals_from_sol_change_mult = -0.25
+}
+
+insurrection = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_revolution_secession_speed_add = 0.50
+	state_turmoil_effects_mult = 0.5
+}
+
+insurrection_spread = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	state_radicals_from_discrimination_mult = 1.00
 }
