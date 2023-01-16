@@ -79,3 +79,71 @@ claim_prussia_decision = {
 		base = 1
 	}
 }
+
+pru_revoke_congress_decision = {
+	is_shown = {
+		exists = c:PRU
+		this = c:PRU
+		this = {
+			NAND = {
+				has_claim = s:STATE_MARIJAMPOLE
+				has_claim = s:STATE_BIALYSTOK
+				has_claim = s:STATE_MAZOVIA
+				has_claim = s:STATE_GREATER_POLAND
+			}
+		}
+
+	}
+
+	possible = {
+		this = c:PRU
+		this = {
+			is_subject = no
+			NOT = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	when_taken = {
+		s:STATE_MARIJAMPOLE = { add_claim = c:PRU }
+		s:STATE_BIALYSTOK = { add_claim = c:PRU }
+		s:STATE_MAZOVIA = { add_claim = c:PRU }
+		s:STATE_GREATER_POLAND = { add_claim = c:PRU }
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
+
+aus_revoke_congress_decision = {
+	is_shown = {
+		exists = c:AUS
+		this = c:AUS
+		this = {
+			NAND = {
+				has_claim = s:STATE_LESSER_POLAND
+			}
+		}
+
+	}
+
+	possible = {
+		this = c:AUS
+		this = {
+			is_subject = no
+			NOT = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	when_taken = {
+		s:STATE_LESSER_POLAND = { add_claim = c:AUS }
+	}
+
+	ai_chance = {
+		base = 1
+	}
+}
