@@ -1,0 +1,20 @@
+polish_modifier = {
+	every_scope_state = {
+		limit = {
+			state_region = { is_homeland = cu:polish }
+		}
+		add_modifier = {
+			name = $MODIFIER$
+		}
+	}
+}  
+lithuanian_modifier = {
+	every_scope_state = {
+		limit = {
+			state_region = { is_homeland = cu:lithuanian }
+		}
+		add_modifier = {
+			name = $MODIFIER$
+		}
+	}
+}
