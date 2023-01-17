@@ -110,7 +110,7 @@ january.2 = {
 		cu:polish = {
 			culture_secession_progress = {
 				target = c:RUS
-				value > 0.1
+				value > 0.5
 			}
 		}
 	}
@@ -177,6 +177,8 @@ january.3 = {
 
 	immediate = {
 		lithuanian_modifier = { $MODIFIER$ = insurrection_spread }
+		byelorussian_modifier = { $MODIFIER$ = insurrection_spread }
+		ukrainian_modifier = { $MODIFIER$ = insurrection_spread }
 	}
 }
 # lithuanian insurrection
@@ -203,7 +205,7 @@ january.4 = {
 		cu:lithuanian = {
 			culture_secession_progress = {
 				target = c:RUS
-				value > 0.1
+				value > 0.5
 			}
 		}
 	}
@@ -228,3 +230,105 @@ january.4 = {
 
 	}
 }
+# byelorussian insurrection
+january.5 = {
+	type = country_event
+	placement = root
+
+	duration = 1
+
+	title = january.5.t
+	desc = january.5.d
+	flavor = january.5.f
+
+	event_image = {
+		video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/public_figure_assassination"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+		cu:byelorussian = {
+			culture_secession_progress = {
+				target = c:RUS
+				value > 0.5
+			}
+		}
+	}
+
+	option = { # Do nothing
+		name = january.5.a
+		default_option = yes
+	}
+
+	option = { # byelorussian autonomy
+		name = january.5.b
+		create_country = {
+			tag = BYE
+			origin = root
+			state = s:STATE_BREST.region_state:RUS
+			state = s:STATE_BIALYSTOK.region_state:RUS
+			state = s:STATE_ORSHA.region_state:RUS
+			state = s:STATE_MINSK.region_state:RUS
+		}
+		create_diplomatic_pact = {
+			country = C:BYE
+			type = personal_union
+		}
+
+	}
+}
+# ukrainian insurrection
+january.6 = {
+	type = country_event
+	placement = root
+
+	duration = 1
+
+	title = january.6.t
+	desc = january.6.d
+	flavor = january.6.f
+
+	event_image = {
+		video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/public_figure_assassination"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+		cu:lithuanian = {
+			culture_secession_progress = {
+				target = c:RUS
+				value > 0.5
+			}
+		}
+	}
+
+	option = { # Do nothing
+		name = january.6.a
+		default_option = yes
+	}
+
+	option = { # ukrainian autonomy
+		name = january.6.b
+		create_country = {
+			tag = UKR
+			origin = root
+			state = s:STATE_VOLHYNIA.region_state:RUS
+			state = s:STATE_PODOLIA.region_state:RUS
+			state = s:STATE_ZHYTOMYR.region_state:RUS
+		}
+		create_diplomatic_pact = {
+			country = C:UKR
+			type = personal_union
+		}
+
+	}
+}
+

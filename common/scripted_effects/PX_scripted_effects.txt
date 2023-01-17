@@ -18,3 +18,25 @@ lithuanian_modifier = {
 		}
 	}
 }
+
+byelorussian_modifier = {
+	every_scope_state = {
+		limit = {
+			state_region = { is_homeland = cu:byelorussian }
+		}
+		add_modifier = {
+			name = $MODIFIER$
+		}
+	}
+}
+
+ukrainian_modifier = {
+	every_scope_state = {
+		limit = {
+			state_region = { is_homeland = cu:ukrainian }
+		}
+		add_modifier = {
+			name = $MODIFIER$
+		}
+	}
+}
