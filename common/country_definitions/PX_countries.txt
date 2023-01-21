@@ -66,6 +66,19 @@ ZAP = { # Zaporizhian Sich
 	capital = STATE_ZAPORIZHZHIA
 }
 
+# RUT = { # Ruthenia
+# 	color = { 240 30 80 }
+# 	country_type = recognized
+# 	tier = principality
+
+# 	cultures = { 
+# 		ukrainian
+# 		rusyn
+# 	}
+
+# 	capital = STATE_ZHYTOMYR
+# }
+
 ### Prussia ###
 
 POZ = { # Poznań

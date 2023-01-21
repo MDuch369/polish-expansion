@@ -2288,6 +2288,15 @@ CAR = { # Carpathian ruthenia
 		STATE_SUBCARPATHIA
 	}
 }
+# RUT = { # ruthenia
+# 	states = {
+# 		STATE_ZHYTOMYR
+# 		STATE_PODOLIA
+# 		STATE_VOLHYNIA
+# 		STATE_EAST_GALICIA
+# 	}	
+# 	ai_will_do = { always = no }
+# }
 
 ### Prussia ###
 
@@ -2343,3 +2352,4 @@ NEM = { # Neumark
 	}
 	ai_will_do = { always = NO }
 }
+
