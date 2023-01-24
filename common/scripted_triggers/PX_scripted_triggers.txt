@@ -3,3 +3,8 @@ polish_homeland = {
 		state_region = { is_homeland = cu:polish }
 	}
 } 
+# lithuanian_homeland = {
+# 	any_scope_state = {
+# 		state_region = { is_homeland = cu:lithuanian }
+# 	}
+# } 

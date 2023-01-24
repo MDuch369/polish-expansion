@@ -40,3 +40,20 @@ ukrainian_modifier = {
 		}
 	}
 }
+
+commonwealth_modifier = {
+	every_scope_state = {
+		limit = {
+			or = {
+				state_region = { is_homeland = cu:polish }
+				state_region = { is_homeland = cu:lithuanian }
+				state_region = { is_homeland = cu:byelorussian }
+				state_region = s:STATE_ZHYTOMYR
+				state_region = s:STATE_PODOLIA
+			}
+		}
+		add_modifier = {
+			name = $MODIFIER$
+		}
+	}
+}

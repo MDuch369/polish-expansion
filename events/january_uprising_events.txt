@@ -55,9 +55,9 @@ january.1 = {
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	
-	trigger = {
-		has_law = law_serfdom
-	}
+	# trigger = {
+	# 	has_law = law:law_serfdom
+	# }
 
 	# immediate = {
 	# 	polish_modifier = { $MODIFIER$ = land_and_liberty }
@@ -71,8 +71,8 @@ january.1 = {
 	
 	option = { # promise to abolish Serfdom
 		name = january.2.b
-		default_option = yes
-		polish_modifier = { $MODIFIER$ = promised_abolishing_serfdom }
+		# polish_modifier = { $MODIFIER$ = promised_abolishing_serfdom }
+		commonwealth_modifier = { $MODIFIER$ = promised_abolishing_serfdom }
 	}
 
 	# option = { # promise autonomy for Poland

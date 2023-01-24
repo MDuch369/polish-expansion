@@ -36,13 +36,14 @@
 		ig:ig_landowners = {
 			set_interest_group_name = ig_gentry_assembly
 		}
-		every_scope_state = {
-			limit = {
-				state_region = { is_homeland = cu:polish }
-			}
-			add_modifier = {
-				name = memories_of_independence
-			}
-		}
+		# every_scope_state = {
+		# 	limit = {
+		# 		state_region = { is_homeland = cu:polish }
+		# 	}
+		# 	add_modifier = {
+		# 		name = memories_of_independence
+		# 	}
+		# }
+		polish_modifier = { MODIFIER = memories_of_independence }
 	}
 }

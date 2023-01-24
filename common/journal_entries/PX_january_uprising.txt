@@ -13,7 +13,7 @@ je_january_urpising = {
 	}
 
 	immediate ={
-		polish_modifier = { $MODIFIER$ = longing_for_liberty }
+		polish_modifier = { MODIFIER = longing_for_liberty }
 	}
 	
 	on_monthly_pulse = {}
