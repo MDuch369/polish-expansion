@@ -167,3 +167,18 @@ NEM = { # Neumark
 	}
 	capital = STATE_EAST_BRANDENBURG
 }
+
+### Austria ###
+
+BKV = { # Bukovina
+	color = { 85 55 110 } 
+	country_type = recognized
+	tier = principality
+	
+	cultures = { 
+		romanian
+		ukrainian
+		rusyn
+	}
+	capital = STATE_CHERNIVTSI
+}
