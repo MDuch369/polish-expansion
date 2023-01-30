@@ -2362,4 +2362,9 @@ BKV = { # Bukovina
 	provinces = { x31A0A0 x31A0A0 xFFCCDA x00A7F4 x067DF0 }
 	ai_will_do = { always = NO }
 }
-
+MRV = { # Moravia
+	states = {
+		STATE_MORAVIA
+	}	
+	ai_will_do = { always = NO }
+}

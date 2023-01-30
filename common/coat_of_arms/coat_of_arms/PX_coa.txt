@@ -378,3 +378,18 @@ BKV ={
 		color1 = "red"
 	}
 }
+
+MRV ={
+# red gold flag
+	# pattern = "pattern_solid.tga"
+	# color1 = "yellow"
+	# colored_emblem = {
+	# 	texture = "ce_bicolor_bottom.dds"
+	# 	color1 = "red"
+	# }
+	pattern = "pattern_solid.tga"
+	color1 = "light_blue"
+	textured_emblem = {
+		texture = "te_moravian_eagle.dds"
+	}
+}
