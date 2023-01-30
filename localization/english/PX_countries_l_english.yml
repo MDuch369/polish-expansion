@@ -15,8 +15,8 @@
  PML_ADJ "Pomerelian"
  CAR:0 "Carpathian Ruthenia"
  CAR_ADJ:0 "Carpathian"
- HET:0 "Cossack Hetmanate"
- HET_ADJ:0 "Cossack"
+ HET:0 "Cossack Hetmanate"  # ???
+ HET_ADJ:0 "Cossack"        # ???
  ZAP:0 "Zaporizhia"
  ZAP_ADJ:0 "Zaporizhian"
  EPR:0 "East Prussia"
@@ -46,4 +46,4 @@
  dyn_c_nem_polish:0 "Lubusz Land"
  dyn_c_nem_polish_adj:0 "Lubusian" # ???
  dyn_c_slv_hungarian:0 "Upper Hungary"
- dyn_c_slv_hungarian_adj:0 "Upper Hungary"
+ dyn_c_slv_hungarian_adj:0 "Upper Hungarian"
