@@ -23,6 +23,10 @@
  EPR_ADJ:0 "East Prussian"
  NEM:0 "Neumark"
  NEM_ADJ:0 "Neumark"
+ BKV:0 "Bukovina"
+ BKV_ADJ:0 "Bukovinian"
+ MRV:0 "Moravia"
+ MRV_ADJ:0 "Moravian"
 
 ### dynamic names ###
 
