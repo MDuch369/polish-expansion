@@ -132,18 +132,18 @@ NEM = {
 	}
 }
 
-SLV = {
-	dynamic_country_name = {
-		name = dyn_c_slv_hungarian
-		adjective = dyn_c_slv_hungarian_adj
+# SLV = {
+# 	dynamic_country_name = {
+# 		name = dyn_c_slv_hungarian
+# 		adjective = dyn_c_slv_hungarian_adj
 		
-		priority = 0
+# 		priority = 0
 		
-		trigger = {
-			exists = scope:actor
-			scope:actor = {			
-				is_subject_of = c:HUN
-			}
-		}
-	}
-}
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {			
+# 				is_subject_of = c:HUN
+# 			}
+# 		}
+# 	}
+# }
