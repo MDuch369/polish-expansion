@@ -1348,22 +1348,7 @@
 			}
 		}
 	}
-	s:STATE_SAXONY = {
-		region_state:SAX = {
-			create_pop = {
-				culture = north_german
-				size = 1038009
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 9289
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 3623
-			}
-		}
+	s:STATE_THURINGIA = {
 		region_state:MEI = {
 			create_pop = {
 				culture = north_german
@@ -1422,6 +1407,23 @@
 			create_pop = {
 				culture = ashkenazi
 				size = 293
+			}
+		}
+	}
+	s:STATE_SAXONY = {
+		region_state:SAX = {
+			create_pop = {
+				culture = north_german
+				size = 1038009
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 9289
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 3623
 			}
 		}
 	}

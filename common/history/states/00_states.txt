@@ -7041,11 +7041,7 @@ STATES = {
 		
 		add_homeland = south_german
 	}
-	s:STATE_SAXONY = {
-		create_state = {
-			country = c:SAX
-			owned_provinces = { x795368 x917939 xAFDFBF x43CE26 x31E0C0 }
-		}
+	s:STATE_THURINGIA = {
 		create_state = {
 			country = c:MEI
 			owned_provinces = { x5141A0 xD0C021 }
@@ -7062,7 +7058,13 @@ STATES = {
 			country = c:SCW
 			owned_provinces = { x51C021 }
 		}
-				
+		add_homeland = north_german
+	}
+	s:STATE_SAXONY = {
+		create_state = {
+			country = c:SAX
+			owned_provinces = { x795368 x917939 xAFDFBF x43CE26 x31E0C0 }
+		}
 		add_homeland = north_german
 		# add_homeland = sorb
 	}
