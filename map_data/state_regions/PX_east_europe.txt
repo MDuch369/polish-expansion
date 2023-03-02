@@ -115,21 +115,116 @@ STATE_BIALYSTOK = {
         bg_logging = 3
     }
 }
+STATE_LUBLIN = {
+	id = 823
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "x40DF20" "x496950" "xE0BB00" "xF73169" "xEB0783" "x44ACBB" "x51A0E0" "xAEB9A5" "xB491B1" "x46B950" }
+	city = 
+	farm = 
+	mine = 
+	wood = 
+	arable_land = 43
+	arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+	capped_resources = {
+		bg_coal_mining = 42
+		bg_lead_mining = 30
+		bg_logging = 6
+	}
+}
+STATE_PLOCK = {
+	id = 824
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "x802161" "xE165F5" "x4F022C" "x46B451" "xDC58D0" }
+	city = 
+	farm = 
+	mine = 
+	wood = 
+	arable_land = 35
+	arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+	capped_resources = {
+		bg_coal_mining = 26
+		bg_iron_mining = 4
+		bg_logging = 3
+	}
+}
+STATE_LODZ = {
+	id = 825
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "xA03316" "x577EE4" "x471A61" "x8FE2DB" "x1F6F99" "x0E40DA" }
+	city = 
+	farm = 
+	mine = 
+	wood = 
+	arable_land = 24
+	arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+	capped_resources = {
+		bg_coal_mining = 14
+		bg_iron_mining = 14
+		bg_logging = 3
+	}
+}
+STATE_SUWALKI = {
+	id = 826
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "xC17590" "x809F60" "xF8C8F6" }
+	city = 
+	farm = 
+	mine = 
+	wood = 
+	arable_land = 27
+	arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+	capped_resources = {
+		bg_coal_mining = 22
+		bg_logging = 2
+	}
+}
 STATE_LESSER_POLAND = {
-    id = 157
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x29408F" "x40DF20" "x44ACBB" "x496950" "x51A0E0" "x57A53D" "x5FF022" "x6000DF" "x955F09" "x9FEDC5" "xA7B86B" "xAB3C62" "xAEB9A5" "xC061A0" "xD0A0E0" "xE0BB00" "xEB0783" "xF73169" "xB491B1" "x46B950" }
-    city = "xE0BB00"
-    farm = "xAB3C62"
-    mine = "x9FEDC5"
-    wood = "x51A0E0"
-    arable_land = 86
-    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
-    capped_resources = {
-        bg_coal_mining = 84
-        bg_lead_mining = 60
-        bg_logging = 13
-    }
+	id = 157
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "x955F09" "x6000DF" "xA7B86B" "x9FEDC5" "xAB3C62" "x5FF022" "x29408F" "x57A53D" "xD0A0E0" "xC061A0" }
+	city = 
+	farm = 
+	mine = 
+	wood = 
+	arable_land = 43
+	arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+	capped_resources = {
+		bg_coal_mining = 42
+		bg_lead_mining = 30
+		bg_logging = 7
+	}
+}
+STATE_GREATER_POLAND = {
+	id = 156
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "xDE06BA" "xC02B8C" "x2F0D92" "x24BBED" "x1CB894" "x738072" "xC0E0A0" }
+	city = 
+	farm = 
+	mine = 
+	wood = 
+	arable_land = 28
+	arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+	capped_resources = {
+		bg_coal_mining = 18
+		bg_iron_mining = 18
+		bg_logging = 5
+	}
+}
+
+STATE_MAZOVIA = {
+	id = 154
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "x4161A0" "xA3A3A9" "x1AA8FB" "x009F60" "x9444C9" }
+	city = 
+	farm = 
+	mine = 
+	wood = 
+	arable_land = 46
+	arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+	capped_resources = {
+		bg_coal_mining = 40
+		bg_logging = 4
+	}
 }
 STATE_ORSHA = {
     id = 138
