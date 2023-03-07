@@ -20,6 +20,10 @@
 			is_subject = no
 			AND = {
 				owns_entire_state_region = STATE_MAZOVIA
+				owns_entire_state_region = STATE_PLOCK
+				owns_entire_state_region = STATE_LUBLIN
+				owns_entire_state_region = STATE_LODZ
+				owns_entire_state_region = STATE_SUWALKI
 				owns_entire_state_region = STATE_LESSER_POLAND
 				owns_entire_state_region = STATE_GREATER_POLAND
 				owns_entire_state_region = STATE_WEST_GALICIA
@@ -60,6 +64,10 @@ claim_prussia_decision = {
 			is_subject = no
 			AND = {
 				owns_entire_state_region = STATE_MAZOVIA
+				owns_entire_state_region = STATE_PLOCK
+				owns_entire_state_region = STATE_LUBLIN
+				owns_entire_state_region = STATE_LODZ
+				owns_entire_state_region = STATE_SUWALKI				
 				owns_entire_state_region = STATE_LESSER_POLAND
 				owns_entire_state_region = STATE_GREATER_POLAND
 				# owns_entire_state_region = STATE_WEST_GALICIA
@@ -90,6 +98,9 @@ pru_revoke_congress_decision = {
 				has_claim = s:STATE_BIALYSTOK
 				has_claim = s:STATE_MAZOVIA
 				has_claim = s:STATE_GREATER_POLAND
+				has_claim = s:STATE_PLOCK
+				has_claim = s:STATE_LODZ
+				has_claim = s:STATE_SUWALKI
 			}
 		}
 
@@ -109,6 +120,9 @@ pru_revoke_congress_decision = {
 		s:STATE_MARIJAMPOLE = { add_claim = c:PRU }
 		s:STATE_BIALYSTOK = { add_claim = c:PRU }
 		s:STATE_MAZOVIA = { add_claim = c:PRU }
+		s:STATE_PLOCK = { add_claim = c:PRU }
+		s:STATE_LODZ = { add_claim = c:PRU }
+		s:STATE_SUWALKI = { add_claim = c:PRU }
 		s:STATE_GREATER_POLAND = { add_claim = c:PRU }
 	}
 
@@ -124,6 +138,7 @@ aus_revoke_congress_decision = {
 		this = {
 			NAND = {
 				has_claim = s:STATE_LESSER_POLAND
+				has_claim = s:STATE_LUBLIN
 			}
 		}
 
@@ -141,6 +156,7 @@ aus_revoke_congress_decision = {
 
 	when_taken = {
 		s:STATE_LESSER_POLAND = { add_claim = c:AUS }
+		s:STATE_LUBLIN = { add_claim = c:AUS }
 	}
 
 	ai_chance = {
